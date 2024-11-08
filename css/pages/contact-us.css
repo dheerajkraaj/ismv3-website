@@ -1,0 +1,21 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/contact-us-banner.webp);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+}
+.job-post-card{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 28px;
+
+}
+.qr-image img{
+  height:184px;
+}
+.table-container{
+  border-radius: 8px;
+background: #F3F6FD;
+
+
+}

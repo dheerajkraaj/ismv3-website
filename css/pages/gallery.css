@@ -1,0 +1,17 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/gallery-banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+}
+.main-gallery-cards{
+  background: var(--light-blue);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+
+  img {
+    width: 100%;
+    height: 290px;
+  }
+}

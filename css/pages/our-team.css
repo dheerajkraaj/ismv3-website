@@ -1,0 +1,7 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/ism-team.webp);
+  background-position: center;
+  background-size: cover;
+  /* border-radius: 8px; */
+  height: 240px;
+}

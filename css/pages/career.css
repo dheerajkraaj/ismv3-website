@@ -1,0 +1,50 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/careers-banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+}
+.job-post-card{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px;
+
+}
+.info{
+  color: #1351D8;
+  /* font-size: 18px; */
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.job-post-card__title{
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.56px;
+}
+.job-apply-btn{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  padding: 12px 24px;
+  text-transform: capitalize;
+  border-radius: 1px;
+  letter-spacing: 0.5px;
+  border: 0px !important;
+  cursor: pointer;
+  border-radius: 99px;
+  font-family: 'Poppins';
+}
+.job-close-btn{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  padding: 12px 24px;
+  text-transform: capitalize;
+  border-radius: 1px;
+  letter-spacing: 0.5px;
+  border: 0px !important;
+  cursor: pointer;
+  border-radius: 99px;
+  font-family: 'Poppins';
+  background-color: #C60609;
+}
