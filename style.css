@@ -418,10 +418,11 @@ p {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.thumbnail-container {
-  /* background: var(--background-color); */
-  /* border-radius: 8px; */
-  /* padding: 10px; */
+.scheme-thumbnail-container {
+  background: var(--background-color);
+  border-radius: 8px;
+  padding: 10px;
+  height: 100%;
   
 }
 
