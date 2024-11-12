@@ -423,6 +423,7 @@ p {
   border-radius: 8px;
   padding: 10px;
   height: 100%;
+  align-content: space-between;
   
 }
 
@@ -476,7 +477,7 @@ p {
 iframe {
   /* border: 1px solid #1351D8; */
   border-radius: 8px;
-  min-height: 400px;
+  /* min-height: 400px; */
 }
 
 .nav-link {
