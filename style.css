@@ -290,7 +290,7 @@ p {
   letter-spacing: 0.32px;
   /* margin: 0 1em; */
   padding: 8px 24px;
-  
+
 }
 
 .social-part img {
@@ -424,7 +424,7 @@ p {
   padding: 10px;
   height: 100%;
   align-content: space-between;
-  
+
 }
 
 .notification-tabs {
@@ -669,4 +669,109 @@ footer ul li a img {
   border-bottom: 3px solid #000;
   width: fit-content;
   line-height: 35px;
+}
+
+
+
+
+
+
+/* Testimonial Section css */
+.testimonial {
+  /* background: #EEE; */
+}
+
+.testimonial-cell {
+  width: 55%;
+  height: 350px;
+  margin-right: 20px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+  border-radius: 8px;
+
+}
+
+/* cell number */
+.testimonial-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.is-selected {
+  /* border: 1px solid; */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  /* transform: scale(1.5);
+  transition: transform .2s; */
+}
+
+.cell1 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_modiji.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell2 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_ashwiniji.webp);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell3 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_vellayan.webp);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell4 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_russell.webp);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell5 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_sanjay.webp);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cell6 {
+  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_pradeep.webp);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flickity-page-dots {
+  display: none
+}
+
+
+
+.owl-nav .owl-prev {
+  height: 40px;
+  width: 40px;
+  background: #192F60 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  /* font-size: 45px !important; */
+
+} 
+.owl-nav .owl-next {
+  height: 40px;
+  width: 40px;
+  background: #192F60 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  /* font-size: 45px !important; */
+} 
+.owl-dots{
+  display: none;
 }

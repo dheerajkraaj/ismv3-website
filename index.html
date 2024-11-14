@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="./css/flickety.css">
 </head>
 
 <body>
@@ -672,7 +672,7 @@
           <p class="sub-heading">Voices of Our Global Leaders</p>
         </div>
         <div class="col">
-          <div id="box-1" class="owl-carousel owl-theme">
+          <!-- <div id="box-1" class="owl-carousel owl-theme">
             <div class="item">
               <img
                 src="https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_modiji.webp"
@@ -703,7 +703,17 @@
                 src="https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_pradeep.webp"
                 alt="Owl Image" class="img-fluid" />
             </div>
-          </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="testimonial js-flickity" data-flickity-options='{ "wrapAround": true }'>
+          <div class="testimonial-cell cell1"></div>
+          <div class="testimonial-cell cell2"></div>
+          <div class="testimonial-cell cell3"></div>
+          <div class="testimonial-cell cell4"></div>
+          <div class="testimonial-cell cell5"></div>
         </div>
       </div>
     </div>
@@ -832,6 +842,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="./js/flickety.js"></script>
   <script>
     // Variables to keep track of the scroll position
     let lastScrollTop = 0;
@@ -866,7 +877,7 @@
       $('#box-2').owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
+        nav: true,
         items: 1,
         autoplay: true,
         autoplayTimeout: 3000,
