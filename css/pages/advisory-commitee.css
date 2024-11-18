@@ -1,0 +1,35 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/advisory-commitee-banner.webp);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+}
+.ism-cards {
+  background-color: #fff;
+  box-shadow: 0 4px 25px rgba(34, 86, 102, 0.07);
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+  min-height: 150px;
+  align-content: center;
+}
+
+.ism-cards_box {
+  display: flex;
+  align-items: center;
+}
+
+.ism-cards_content {
+  padding: 15px 25px;
+  width: 100%;
+}
+.ism-cards_content_title {
+  color: #192F60;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.ism-cards_content_description {
+  font-size: 14px;
+  font-weight: normal;
+}

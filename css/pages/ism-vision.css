@@ -4,3 +4,10 @@
   background-size: cover;
   height: 240px;
 }
+.justify-items-ends{
+  justify-items: end;
+}
+.scheme-thumbnail-container img {
+  width: 100%;
+  height: 348px;
+}
