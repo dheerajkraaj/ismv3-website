@@ -2,7 +2,7 @@
   background-image: url(../../images/banners/gallery-banner.png);
   background-position: center;
   background-size: cover;
-  height: 240px;
+  height: 25vh;
 }
 .main-gallery-cards{
   background: var(--light-blue);
@@ -20,14 +20,14 @@
   background-color: #1c1c1c;
   border-color: none !important;
 }
-.nav-item button {
+.ism-elem10_wrap .nav-item button {
   border-radius: 5px;
 }
-.nav-link {
+.ism-elem10_wrap .nav-link {
   background: #fff;
 }
 
-.item {
+.ism-elem10_wrap .item {
   margin-bottom: 25px;
   height: -moz-calc(100% - 25px);
   height: -webkit-calc(100% - 25px);

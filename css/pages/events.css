@@ -2,7 +2,7 @@
   background-image: url(../../images/banners/events-banner.png);
   background-position: center;
   background-size: cover;
-  height: 240px;
+  height: 25vh;
 }
 .main-event-cards{
   background: var(--light-blue);

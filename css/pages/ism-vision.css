@@ -2,7 +2,7 @@
   background-image: url(../../images/banners/ism-vision-banner.webp);
   background-position: center;
   background-size: cover;
-  height: 240px;
+  height: 25vh;
 }
 .justify-items-ends{
   justify-items: end;
