@@ -7,7 +7,7 @@
 }
 .ism-cards {
   background-color: var(--white);
-  box-shadow: 0 4px 25px rgba(34, 86, 102, 0.07);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   text-align: center;
   position: relative;
   -webkit-transition: all 0.8s ease;
@@ -25,7 +25,7 @@
   display: -webkit-flex;
   display: flex;
   z-index: 11;
-  border: 1px solid #0E0E52;
+  /* border: 1px solid #0E0E52; */
   /* border-radius: 8px; */
 }
 .ism-cards:before {

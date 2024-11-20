@@ -8,7 +8,9 @@
   background-color: #fff;
   border-radius: 8px;
   padding: 25px;
-
+}
+.job-post-card:hover{
+  border: 1.5px solid #1351D8;
 }
 .info{
   color: #1351D8;
@@ -25,7 +27,7 @@ letter-spacing: 0.56px;
   font-size: 16px;
   font-weight: 500;
   line-height: 0.8;
-  padding: 12px 24px;
+  padding: 15px 30px;
   text-transform: capitalize;
   border-radius: 1px;
   letter-spacing: 0.5px;
@@ -38,7 +40,7 @@ letter-spacing: 0.56px;
   font-size: 16px;
   font-weight: 500;
   line-height: 0.8;
-  padding: 12px 24px;
+  padding: 15px 30px;
   text-transform: capitalize;
   border-radius: 1px;
   letter-spacing: 0.5px;
@@ -48,3 +50,31 @@ letter-spacing: 0.56px;
   font-family: 'Poppins';
   background-color: #C60609;
 }
+
+.nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #1c1c1c;
+  border-color: none !important;
+}
+.career-tabs  .nav-item button {
+  border-radius: 5px;
+}
+.career-tabs  .nav-link {
+  background: #fff;
+}
+
+/* .career-tabs  .item {
+  margin-bottom: 25px;
+  height: -moz-calc(100% - 25px);
+  height: -webkit-calc(100% - 25px);
+  height: calc(100% - 25px);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.career-tabs  .item img {
+  object-fit: cover;
+  height: 333px;
+} */
