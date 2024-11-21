@@ -1,6 +1,16 @@
+.ismv3-intro-banner{
+  background-image: url(../../images/banners/faqs.webp);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
 
+.gc-wrapper {
+  background: #F3F6FD;
+  padding: 2rem;
+}
 .accordion {
-  border: 1px solid #002247;
+  /* border: 1px solid #002247; */
 }
 
 .accordion h3 {
@@ -21,10 +31,27 @@
   display: block;
   width: 100%;
   font-size: 18px;
-  color: #000000;
+  color: #192F60;
   position: relative;
 }
-
+.accordion-button {
+  position: relative;
+  display: flex
+;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1.05rem;
+  font-family: Poppins;
+  color: #192F60;
+  font-weight: 500;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
 .accordion .card-header button.collapsed::after {
   position: absolute;
   width: 2px;

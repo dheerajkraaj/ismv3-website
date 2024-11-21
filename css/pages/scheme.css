@@ -1,0 +1,101 @@
+.ismv3-intro-banner{
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
+
+.display-scheme-banner{
+  background-image: url(../../images/banners/display-fab-scheme.webp);
+}
+.design-link-scheme-banner{
+  background-image: url(../../images/banners/design-link-scheme.webp);
+}
+.compound-scheme-banner{
+  background-image: url(../../images/banners/compound-scheme.webp);
+}
+.semiconductor-scheme-banner{
+  background-image: url(../../images/banners/semiconductor-scheme.webp);
+}
+.size-big{
+  height: 35px;
+}
+.nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #1c1c1c;
+  border-color: none !important;
+}
+.career-tabs  .nav-item button {
+  border-radius: 5px;
+}
+.career-tabs  .nav-link {
+  background: #fff;
+}
+.details-cards{
+  background: #F3F6FD;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.details-cards_title{
+  /* color: #1C1C1C;
+  font-family: Poppins; */
+  font-size: 20px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
+.details-cards_content{
+  /* color: #1C1C1C;
+font-family: Poppins; */
+font-size: 16px;
+/* font-style: normal; */
+font-weight: 500;
+line-height: 28px; 
+letter-spacing: 0.32px;
+}
+.scheme-apply-cards{
+  border-radius: 8px;
+  padding: 1rem;
+  height: 100%;
+}
+.scheme-apply-cards_bg1{
+  background-color: #CF8107;
+}
+.scheme-apply-cards_bg2{
+  background-color: #2BA1B5;
+}
+.scheme-apply-cards_bg3{
+  background-color: #059677;
+}
+.scheme-apply-cards_bg4{
+  background-color: #DA536A;
+}
+.scheme-apply-cards_title{
+  color: #FFF;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0.56px;
+}
+.scheme-apply-cards_content-box{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  height: 200px;
+}
+.scheme-apply-cards_content-box_heading p{
+font-size: 16px;
+font-weight: 500;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+.scheme-apply-cards_content-box__sub-heading p{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.28px;
+}
+.scheme-apply-cards_title img{
+  height: 50px;
+  margin-bottom: 15px;
+}

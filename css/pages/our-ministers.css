@@ -1,11 +1,13 @@
 .ismv3-intro-banner{
-  background-image: url(../../images/banners/tenders-banner.webp);
+  background-image: url(../../images/banners/our-ministers-banner.webp);
   background-position: center;
   background-size: cover;
   height: 25vh;
 }
 .ism-generic_tabbing{
   background-color: #F3F6FD;
+  padding: 2rem;
+  margin: 2rem 1rem;
 }
 .ism-generic_tabbing.v3 .nav-tabs {
   display: -webkit-box;
@@ -46,12 +48,13 @@
   border-color: rgba(var(#192F60), 0.7);
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  padding: 16px 12px;
+  padding: 20px 12px;
   outline: none !important;
   color: #1c1c1c;
   font-size: .875rem;
   border-top: none;
   border-bottom: none;
+  border-radius: 92px;
 }
 .ism-generic_tabbing.v3 .nav-tabs .nav-item {
   flex: 1;
@@ -66,4 +69,53 @@
 .table{
   background-color: #F3F6FD !important;
   --bs-table-bg: #F3F6FD !important;
+}
+.ism-elem1_content{
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 8px;
+}
+.ism-elem1_icon2 {
+  background: #fff;
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 8px;
+  height: 100%;
+  align-content: center;
+}
+.ism-elem1_icon2 img{
+  height: 450px;
+}
+.ism-hw-2_title{
+  color: #192F60;
+font-family: "Playfair Display";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+}
+.ism-hw-2_subText{
+  color: #1C1C1C;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px !important; /* 140% */
+letter-spacing: 0.4px;
+}
+.ism-hw-2_content {
+  color: #1C1C1C;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+.gc-wrapper li {
+  list-style: disc;
+  margin-left: 20px;
+}
+strong{
+  font-weight: 500;
 }
