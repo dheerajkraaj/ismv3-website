@@ -1,9 +1,3 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/contact-us-banner.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
 .job-post-card{
   background-color: #fff;
   border-radius: 8px;
@@ -15,9 +9,4 @@
 }
 .table-container{
   border-radius: 8px;
-  background: #F3F6FD !important;
-}
-.table{
-  background-color: #F3F6FD !important;
-  --bs-table-bg: #F3F6FD !important;
 }

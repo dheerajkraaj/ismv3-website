@@ -166,27 +166,29 @@
     <div>
       <div class="row px-4">
         <div class="col-sm-12">
-          <div class="ismv3-intro-banner"></div>
+          <div class="page-main-banner">
+            <h3>Notices</h3>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="">
+
+  <section>
     <div>
       <div class="row p-5">
         <div class="col-sm-12 table-container">
-          <div class="">           
-            <div class="table-responsive">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="text-center">Sr. No.</th>
-                    <th class="w-70">Title</th>
-                    <th>Date</th>
-                    <th class="text-center">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
+          <div class="table-responsive">
+            <table class="table" id="notificationTable">
+              <thead>
+                <tr>
+                  <th class="text-center">Sr. No.</th>
+                  <th class="w-70">Title</th>
+                  <th>Date</th>
+                  <th class="text-center">Action</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
                   <tr>
                     <td class="text-center">1</td>
                     <td class="w-70">Establishing Resilient Supply Chains for Electronics & Semiconductor Manufacturing</td>
@@ -272,7 +274,11 @@
       </div>
     </div>
   </section>
-
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center" id="paginationControls">
+      <!-- Pagination Buttons will be dynamically generated -->
+    </ul>
+  </nav>
 
   <footer class="ism-footer">
     <div class=" ism-footer-inner-box">
@@ -340,6 +346,61 @@
   <div>
     <p class="ism-footer-copyright m-0">© Copyright India SemiConductor Mission. All Rights Reserved</p>
   </div>
+  <script>
+    // Pagination Script
+    document.addEventListener("DOMContentLoaded", function () {
+      const rowsPerPage = 5;
+      const table = document.getElementById("notificationTable");
+      const tableBody = document.getElementById("tableBody");
+      const paginationControls = document.getElementById("paginationControls");
+  
+      const rows = Array.from(tableBody.querySelectorAll("tr"));
+      const totalRows = rows.length;
+      const totalPages = Math.ceil(totalRows / rowsPerPage);
+  
+      // Function to render the rows for the current page
+      function renderTable(page) {
+        // Clear table body
+        tableBody.innerHTML = "";
+  
+        // Calculate start and end indices for the rows
+        const startIndex = (page - 1) * rowsPerPage;
+        const endIndex = Math.min(startIndex + rowsPerPage, totalRows);
+  
+        // Append rows for the current page
+        for (let i = startIndex; i < endIndex; i++) {
+          tableBody.appendChild(rows[i]);
+        }
+  
+        // Update pagination controls
+        updatePaginationControls(page);
+      }
+  
+      // Function to update pagination controls
+      function updatePaginationControls(currentPage) {
+        paginationControls.innerHTML = "";
+  
+        for (let i = 1; i <= totalPages; i++) {
+          const li = document.createElement("li");
+          li.classList.add("page-item");
+          if (i === currentPage) {
+            li.classList.add("active");
+          }
+  
+          const button = document.createElement("button");
+          button.classList.add("page-link");
+          button.textContent = i;
+          button.addEventListener("click", () => renderTable(i));
+  
+          li.appendChild(button);
+          paginationControls.appendChild(li);
+        }
+      }
+  
+      // Initialize the table with the first page
+      renderTable(1);
+    });
+  </script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>

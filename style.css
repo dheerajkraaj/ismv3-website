@@ -96,6 +96,7 @@ h6 {
 p {
   /* margin-bottom: 16px; */
   letter-spacing: 0.32px;
+  font-weight: 500;
 }
 
 .main-heading {
@@ -105,7 +106,7 @@ p {
   letter-spacing: 0.56px;
   text-transform: uppercase;
   line-height: 22px;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 .main-heading img {
@@ -129,7 +130,7 @@ p {
   font-weight: 550;
   border-bottom: 3px solid var(--dark-blue);
   width: fit-content;
-  line-height: 35px;
+  line-height: 46px;
 }
 
 .inner-heading {
@@ -777,4 +778,38 @@ footer ul li a img {
 } 
 .owl-dots{
   display: none;
+}
+
+.ism-footer-iframe2{
+  background-color: #fff;
+    border-radius: 8px;
+    align-content: center;
+}
+.ism-footer-iframe2 img{
+
+}
+
+.page-main-banner{
+  background-image: url(../../images/page-title-banner.webp);
+  background-position: center;
+  background-size: cover;
+  height: 18vh;
+  align-content: center;
+}
+.page-main-banner h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.page-item .page-link {
+  z-index: 3;
+  color: #1c1c1c;
+  padding: 0.75rem 1.25rem; 
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #192F60;
+  border-color: #192F60;
+  padding: 0.75rem 1.25rem;
 }

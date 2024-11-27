@@ -1,18 +1,8 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/notice.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .table-container {
   border-radius: 8px;
-  background: #F3F6FD !important;
 }
 
-.table {
-  background-color: #F3F6FD !important;
-  --bs-table-bg: #F3F6FD !important;
-}
 .w-70{
   width:70%;
 }

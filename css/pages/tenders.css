@@ -1,11 +1,8 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/tenders-banner.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .ism-generic_tabbing{
   background-color: #F3F6FD;
+  /* padding: 2rem; */
+  margin: 2rem 1rem;
 }
 .ism-generic_tabbing.v3 .nav-tabs {
   display: -webkit-box;
@@ -46,12 +43,13 @@
   border-color: rgba(var(#192F60), 0.7);
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  padding: 16px 12px;
+  padding: 20px 12px;
   outline: none !important;
   color: #1c1c1c;
   font-size: .875rem;
   border-top: none;
   border-bottom: none;
+  border-radius: 92px;
 }
 .ism-generic_tabbing.v3 .nav-tabs .nav-item {
   flex: 1;
