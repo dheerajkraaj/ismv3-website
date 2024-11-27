@@ -1,9 +1,11 @@
-.ismv3-intro-banner{
+/* .ismv3-intro-banner{
   background-position: center;
   background-size: cover;
   height: 25vh;
+} */
+.notification-tabs{
+  background-color: #fff;
 }
-
 .display-scheme-banner{
   background-image: url(../../images/banners/display-fab-scheme.webp);
 }
