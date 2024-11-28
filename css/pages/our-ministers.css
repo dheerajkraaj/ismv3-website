@@ -25,12 +25,12 @@
 .ism-generic_tabbing .nav-tabs {
   border-bottom: none;
   border: 1px solid rgba(var(#192F60), 0.7);
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .ism-generic_tabbing .nav-tabs {
   border-bottom: none;
   border: 1px solid rgba(var(#192F60), 0.7);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .ism-generic_tabbing .nav-tabs .nav-link.active {
   background-color: #192F60;
@@ -67,7 +67,7 @@
 }
 .ism-elem1_content{
   background-color: #fff;
-  padding: 3rem;
+  padding: 1rem 2rem;
   border-radius: 8px;
 }
 .ism-elem1_icon2 {
@@ -113,4 +113,11 @@ letter-spacing: 0.32px;
 }
 strong{
   font-weight: 500;
+}
+.accordion-button{
+  background-color: transparent !important;
+  border-radius: 8px;
+}
+.archieve-icon{
+  height:40px; width:40px;margin-right: 10px;
 }

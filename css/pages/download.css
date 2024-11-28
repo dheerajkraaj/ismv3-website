@@ -1,6 +1,6 @@
 
 .ism-generic_tabbing{
-  background-color: #F3F6FD;
+  /* background-color: #F3F6FD; */
   /* padding: 2rem; */
   margin: 2rem 1rem;
 }
@@ -50,6 +50,7 @@
   border-top: none;
   border-bottom: none;
   border-radius: 92px;
+  border: 1px solid #192f60;
 }
 .ism-generic_tabbing.v3 .nav-tabs .nav-item {
   flex: 1;
@@ -59,9 +60,9 @@
 }
 .table-container{
   border-radius: 8px;
-  background: #F3F6FD !important;
+  /* background: #F3F6FD !important; */
 }
 .table{
-  background-color: #F3F6FD !important;
-  --bs-table-bg: #F3F6FD !important;
+  /* background-color: #F3F6FD !important;
+  --bs-table-bg: #F3F6FD !important; */
 }

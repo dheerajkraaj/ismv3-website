@@ -349,7 +349,10 @@ p {
     letter-spacing: 0.32px;
   }
 }
-
+btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
 .btn-new-theme {
   display: flex;
   padding: 5px 30px 5px 30px;
@@ -367,7 +370,13 @@ p {
 
   img {
     width: 100%;
-    height: 200px;
+    height: 300px;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  h3{
+    margin: 0;
   }
 }
 
@@ -455,6 +464,8 @@ p {
 
 .social-card-content {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 450px;
+  overflow: auto;
 }
 
 /* Responsive Media Queries */
@@ -714,41 +725,41 @@ footer ul li a img {
 }
 
 .cell1 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_modiji.webp);
+  background: url(./images/testimonials/modi_ji.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell2 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_ashwiniji.webp);
+  background: url(./images/testimonials/ashwini_ji.webp);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell3 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_vellayan.webp);
+  background: url(./images/testimonials/vellayan.webp);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell4 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_russell.webp);
+  background: url(./images/testimonials/pradeep.webp);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell5 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_sanjay.webp);
+  background: url(./images/testimonials/rusell.webp);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell6 {
-  background: url(https://d37op362njfvp5.cloudfront.net/static/dist/newismwebsite/testimonials/testimonial_pradeep.webp);
+  background: url(./images/testimonials/sanjay.webp);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -813,4 +824,179 @@ footer ul li a img {
   background-color: #192F60;
   border-color: #192F60;
   padding: 0.75rem 1.25rem;
+}
+
+
+.timeline-new {
+ul {
+  --col-gap: 2rem;
+  --row-gap: 2rem;
+  --line-w: 0.25rem;
+  display: grid;
+  grid-template-columns: var(--line-w) 1fr;
+  grid-auto-columns: max-content;
+  column-gap: var(--col-gap);
+  list-style: none;
+  width: min(80rem, 90%);
+  margin-inline: auto;
+}
+
+/* line */
+ul::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 20;
+  background: rgb(225, 225, 225);
+  border-radius: calc(var(--line-w) / 2);
+}
+
+/* columns*/
+
+/* row gaps */
+ul li:not(:last-child) {
+  margin-bottom: var(--row-gap);
+}
+
+/* card */
+ul li {
+  grid-column: 2;
+  --inlineP: 1.5rem;
+  margin-inline: var(--inlineP);
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+}
+
+/* date */
+ul li .date {
+  --dateH: 3rem;
+  height: var(--dateH);
+  margin-inline: calc(var(--inlineP) * -1);
+
+  text-align: center;
+  background-color: var(--accent-color);
+
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  display: grid;
+  place-content: center;
+  position: relative;
+
+  border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+}
+
+/* date flap */
+ul li .date::before {
+  content: "";
+  width: var(--inlineP);
+  aspect-ratio: 1;
+  background: var(--accent-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+  position: absolute;
+  top: 100%;
+
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  right: 0;
+}
+
+/* circle */
+ul li .date::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  aspect-ratio: 1;
+  background: var(--bgColor);
+  border: 0.3rem solid var(--accent-color);
+  border-radius: 50%;
+  top: 50%;
+
+  transform: translate(50%, -50%);
+  right: calc(100% + var(--col-gap) + var(--line-w) / 2);
+}
+
+/* title descr */
+ul li .timeline-title,
+ul li .descr {
+  background: var(--bgColor);
+  position: relative;
+  padding-inline: 1.5rem;
+}
+ul li .timeline-title {
+  overflow: hidden;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+ul li .descr {
+  padding-block-end: 0.5rem;
+  font-weight: 450;
+}
+
+/* shadows */
+ul li .timeline-title::before,
+ul li .descr::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  border-radius: 50%;
+  filter: blur(4px);
+  transform: translate(-50%, 50%);
+}
+ul li .timeline-title::before {
+  bottom: calc(100% + 0.125rem);
+}
+
+ul li .descr::before {
+  z-index: -1;
+  bottom: 0.25rem;
+}
+.posts-icon {
+  padding-right: .5rem;
+}
+.posts-icon img{
+ 
+  height: 25px;
+  width: 25px;
+}
+}
+/*  */
+@media (min-width: 40rem) {
+  .timeline-new {
+     ul {
+    grid-template-columns: 1fr var(--line-w) 1fr;
+  }
+  ul::before {
+    grid-column: 2;
+  }
+  ul li:nth-child(odd) {
+    grid-column: 1;
+  }
+  ul li:nth-child(even) {
+    grid-column: 3;
+  }
+
+  /* start second card */
+  ul li:nth-child(2) {
+    grid-row: 2/4;
+  }
+
+  ul li:nth-child(odd) .date::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    left: 0;
+  }
+
+  ul li:nth-child(odd) .date::after {
+    transform: translate(-50%, -50%);
+    left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+  }
+  ul li:nth-child(odd) .date {
+    border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+  }
+}
 }

@@ -1,18 +1,17 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/events-banner.png);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .main-event-cards{
   background: var(--light-blue);
   border-radius: 8px;
   padding: 1rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   /* margin: 1rem 0.5rem; */
+  height: 100%;
 
   img {
     width: 100%;
     height: 290px;
+  }
+  p{
+    margin-bottom: 5px;
   }
 }

@@ -1,13 +1,11 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/careers-banner.png);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .job-post-card{
   background-color: #fff;
   border-radius: 8px;
   padding: 25px;
+  margin: 1rem 0;
+  /* height: 100%; */
+  min-height: 450px;
 }
 .job-post-card:hover{
   border: 1.5px solid #1351D8;
@@ -62,7 +60,13 @@ letter-spacing: 0.56px;
 .career-tabs  .nav-link {
   background: #fff;
 }
-
+.posts-icon{
+  padding-right: 10px;
+}
+.posts-icon img{
+  height: 40px;
+  width: 40px;
+}
 /* .career-tabs  .item {
   margin-bottom: 25px;
   height: -moz-calc(100% - 25px);
