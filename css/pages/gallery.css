@@ -1,9 +1,4 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/gallery-banner.png);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .main-gallery-cards{
   background: var(--light-blue);
   border-radius: 8px;
@@ -24,26 +19,4 @@
   color: #fff !important;
   background-color: #1c1c1c;
   border-color: none !important;
-}
-.ism-elem10_wrap .nav-item button {
-  border-radius: 5px;
-}
-.ism-elem10_wrap .nav-link {
-  background: #fff;
-}
-
-.ism-elem10_wrap .item {
-  margin-bottom: 25px;
-  height: -moz-calc(100% - 25px);
-  height: -webkit-calc(100% - 25px);
-  height: calc(100% - 25px);
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-}
-.ism-elem10_wrap .item img {
-  object-fit: cover;
-  height: 333px;
 }
