@@ -6,6 +6,10 @@
 .notification-tabs{
   background-color: #fff;
 }
+.notification-icon img{
+  width: 35px;
+  height: 35px;
+}
 .display-scheme-banner{
   background-image: url(../../images/banners/display-fab-scheme.webp);
 }

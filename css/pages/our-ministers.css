@@ -50,6 +50,7 @@
   border-top: none;
   border-bottom: none;
   border-radius: 92px;
+  border: 1px solid #192f60;
 }
 .ism-generic_tabbing.v3 .nav-tabs .nav-item {
   flex: 1;
@@ -69,6 +70,7 @@
   background-color: #fff;
   padding: 1rem 2rem;
   border-radius: 8px;
+  height: 100%;
 }
 .ism-elem1_icon2 {
   background: #fff;
@@ -76,7 +78,7 @@
   padding-top: 1rem;
   border-radius: 8px;
   height: 100%;
-  align-content: center;
+  align-content: end;
 }
 .ism-elem1_icon2 img{
   height: 450px;
