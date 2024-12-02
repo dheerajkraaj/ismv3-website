@@ -456,7 +456,10 @@ btn:hover {
   align-content: center;
   padding: 5px 15px;
 }
-
+.notification-icon img{
+  width: 40px;
+  height: 40px;
+}
 .notification-text {
   font-size: 14px;
   width: 85%;
