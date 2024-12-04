@@ -1,43 +1,10 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/faqs.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
-
 .gc-wrapper {
-  background: #F3F6FD;
-  padding: 2rem;
-}
-.accordion {
-  /* border: 1px solid #002247; */
+
 }
 
-.accordion h3 {
-  background-color: #f3e9eb;
-  color: #222;
-  font-size: 16px;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-}
-
-.accordion .card-header {
-  padding: 0;
-}
-
-.accordion .card-header button {
-  text-align: left;
-  display: block;
-  width: 100%;
-  font-size: 18px;
-  color: #192F60;
-  position: relative;
-}
 .accordion-button {
   position: relative;
-  display: flex
-;
+  display: flex;
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
@@ -51,66 +18,4 @@
   border-radius: 0;
   overflow-anchor: none;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
-}
-.accordion .card-header button.collapsed::after {
-  position: absolute;
-  width: 2px;
-  height: 12px;
-  content: '';
-  background-color: #000;
-  right: 12px;
-  top: 54%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.accordion .card-header button::before {
-  position: absolute;
-  width: 12px;
-  height: 2px;
-  content: '';
-  background-color: #000;
-  right: 7px;
-  top: 50%;
-}
-
-.accordion .card-header button:hover {
-  text-decoration: none;
-}
-
-.accordion .card-header button i {
-  float: right;
-  margin-top: 3px;
-}
-
-.accordion .card-body {
-  padding: 15px;
-  font-size: 16px;
-}
-
-.accordion .card-body table {
-  margin: 0;
-}
-
-.accordion .card-body table a {
-  color: #000;
-}
-
-.accordion .card-body table span {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.accordion ul.occasion_list a {
-  padding: 5px 15px;
-  color: #222;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.accordion ul.occasion_list a:hover {
-  color: #002247;
 }

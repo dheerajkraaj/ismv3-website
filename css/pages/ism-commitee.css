@@ -1,17 +1,11 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/ism-commitee-banner.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .ism-cards {
   background-color: #fff;
   box-shadow: 0 4px 25px rgba(34, 86, 102, 0.07);
   text-align: center;
   position: relative;
   margin-bottom: 2rem;
-  border-radius: 8px;
-  /* min-height: 150px; */
+  border-radius: 0.5rem;
   align-content: center;
 }
 
@@ -26,12 +20,12 @@
 }
 .ism-cards_content_title {
   color: #192F60;
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 500;
   /* margin-bottom: 15px; */
 }
 .ism-cards_content_description {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
 }
 .table{

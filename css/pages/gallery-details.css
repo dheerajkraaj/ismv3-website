@@ -1,12 +1,12 @@
 .ism-elem10_wrap .nav-item button {
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .ism-elem10_wrap .item {
-  margin-bottom: 25px;
-  height: -moz-calc(100% - 25px);
-  height: -webkit-calc(100% - 25px);
-  height: calc(100% - 25px);
+  margin-bottom: 1.5rem;
+  height: -moz-calc(100% - 1.5rem);
+  height: -webkit-calc(100% - 1.5rem);
+  height: calc(100% - 1.5rem);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -17,6 +17,7 @@
 .ism-elem10_wrap .item img {
   object-fit: cover;
   height: 100%;
+  border-radius: 0.5rem;
 }
 
 .nav-tabs .nav-link.active {
@@ -26,9 +27,8 @@
 }
 
 .goto-home-btn a {
-  color: #1C1C1C;
-  font-family: Poppins;
-  font-size: 20px;
+  color: var(--primary-color);
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.56px;
@@ -39,3 +39,18 @@
   width: 25px;
   height: 25px;
 }
+.tabs-aligment {
+  text-align: right;
+}
+.gallery-tabs{
+  padding: 1rem;
+  border: none;
+  display: inline-flex;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+@media (max-width: 576px) {
+  .tabs-aligment{
+    text-align: center;
+  }
+ }
