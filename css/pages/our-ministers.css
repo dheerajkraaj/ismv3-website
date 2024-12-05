@@ -24,7 +24,7 @@
 .ism-generic_tabbing .nav-tabs {
   border-bottom: none;
   border: 1px solid rgba(var(#192F60), 0.7);
-  margin-bottom: 1.5rem;
+  margin-bottom:0.75rem;
 }
 
 .ism-generic_tabbing .nav-tabs .nav-link.active {
@@ -63,7 +63,6 @@
 } */
 .ism-elem1_content{
   background-color: #fff;
-  padding: 1rem 2rem;
   border-radius: 8px;
   height: 100%;
 }
@@ -78,23 +77,36 @@
 .ism-elem1_icon2 img{
   height: 450px;
 }
+.archive-minister img{
+  height: 25rem;
+}
+.ism-hw-2{
+  font-size: 2.5rem;
+  color: #192F60;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+}
 .ism-hw-2_title{
   color: #192F60;
-font-family: "Playfair Display";
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: 44px;
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 44px; */
 }
 .ism-hw-2_subText{
   color: #1C1C1C;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px !important; /* 140% */
-letter-spacing: 0.4px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
 }
+.ism-hw-2_subText strong{
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-family: poppins;
+}
+
 .ism-hw-2_content {
   color: #1C1C1C;
 font-family: Poppins;
@@ -117,4 +129,18 @@ strong{
 }
 .archieve-icon{
   height:40px; width:40px;margin-right: 10px;
+}
+
+@media (max-width: 568px) {
+  .ism-generic_tabbing.v3 .nav-tabs{
+    display: block;
+    padding: 0.5rem 0.25rem;
+  }
+  .ism-generic_tabbing.v3 .nav-tabs .nav-item {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.ism-generic_tabbing .nav-tabs {
+  margin-bottom:0;
+}
 }
