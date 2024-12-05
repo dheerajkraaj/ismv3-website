@@ -2,50 +2,43 @@
 .job-post-card{
   background-color: #fff;
   border-radius: 8px;
-  padding: 25px;
-  margin: 1rem 0;
-  /* height: 100%; */
-  min-height: 450px;
+  padding: 1rem 1.5rem;
 }
 .job-post-card:hover{
-  border: 1.5px solid #1351D8;
+  border: 1px solid #1351D8;
 }
 .info{
-  color: #1351D8;
-  /* font-size: 18px; */
+  color: var(--primary-color);
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .job-post-card__title{
-font-size: 20px;
+font-size: 1.5rem;
 font-weight: 600;
 letter-spacing: 0.56px;
 }
 .job-apply-btn{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 0.8;
-  padding: 15px 30px;
+  padding: 1rem 1.75rem;
   text-transform: capitalize;
-  border-radius: 1px;
   letter-spacing: 0.5px;
   border: 0px !important;
   cursor: pointer;
   border-radius: 99px;
-  font-family: 'Poppins';
 }
 .job-close-btn{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 0.8;
-  padding: 15px 30px;
+  padding: 1rem 1.5rem;
   text-transform: capitalize;
   border-radius: 1px;
   letter-spacing: 0.5px;
   border: 0px !important;
   cursor: pointer;
   border-radius: 99px;
-  font-family: 'Poppins';
   background-color: #C60609;
 }
 
@@ -61,11 +54,11 @@ letter-spacing: 0.56px;
   background: #fff;
 }
 .posts-icon{
-  padding-right: 10px;
+  padding-right: 0.5rem;
 }
 .posts-icon img{
-  height: 40px;
-  width: 40px;
+  height: 2rem;
+  width: 2rem;
 }
 /* .career-tabs  .item {
   margin-bottom: 25px;
