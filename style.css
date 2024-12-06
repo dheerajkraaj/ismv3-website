@@ -74,11 +74,7 @@ p {
   letter-spacing: 0.32px;
   font-weight: 500;
 }
-/* Header Css */
-.header-active{
-  border-bottom: 2px solid #192F60;
-  padding-bottom: 2px;
-}
+
 
 .main-heading {
   color: var(--primary-color);
@@ -219,70 +215,9 @@ p {
 
 
 /* Header CSS */
-.ism-v3-header__topBar {
-  background: var(--primary-color);
-  height: 35px;
 
-  .nav-link {
-    color: #FFF !important;
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    text-transform: capitalize;
-    align-content: center;
-  }
-}
 
-.date-time {
-  color: #FFF;
-  font-family: Poppins;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 36px;
-  /* 225% */
-  text-transform: capitalize;
-  align-content: center;
-}
 
-.ism-header__main_box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 90px;
-}
-
-.ism-header__main_box img {
-  width: 40%;
-}
-
-.navbar-nav .dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-}
-
-.custom-header {
-  background: var(--secondary-color);
-}
-
-#navbarNav ul li a {
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0.32px;
-  /* margin: 0 1em; */
-  padding: 8px 24px;
-
-}
-
-.social-part img {
-  width: 30px;
-  height: 30px;
-  margin-right: 3px;
-}
 
 .ismv3-main-banner {
   background-image: url(./images/hero_banner.webp);
@@ -293,10 +228,10 @@ p {
 
 .ismv3-marquee {
   background: var(--primary-color);
-  height: 46px;
+  /* height: 46px; */
   color: var(--light-text);
-  font-family: Poppins;
-  align-content: center;
+  /* font-family: Poppins; */
+  /* align-content: center; */
   padding: 7px;
 }
 
@@ -307,7 +242,9 @@ p {
   font-weight: 600;
   padding-left: 2rem;
 }
-
+marquee{
+  vertical-align: middle;
+}
 .milestone-card {
   border-radius: 8px;
   background: #F3F6FD;
@@ -650,26 +587,8 @@ footer ul li a img {
 }
 
 
-/* Make header sticky */
-.ism-header__main_box1 {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
 
-/* Hide main bar */
-.hide-topBar {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-}
 
-/* Transition main bar back to original */
-.show-topBar {
-  transform: translateY(0);
-  transition: transform 0.3s ease;
-}
 
 .social-btn-icon {
   height: 25px;
