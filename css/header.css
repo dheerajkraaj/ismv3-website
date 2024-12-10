@@ -251,7 +251,7 @@ a {
 .nav__link {
   color: #1c1c1c;
   /* background-color: var(--black-color); */
-  font-weight: var(--font-regular);
+  font-weight: 500;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -446,8 +446,8 @@ a {
 
 
 .social-part img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-right: 3px;
 }
 .ism-header__main_box img{

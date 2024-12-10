@@ -13,6 +13,9 @@
   min-height: 150px;
   align-content: center;
 }
+.ism-cards:hover {
+  border: 1px solid #192f60;
+}
 
 .ism-cards_box {
   display: flex;
