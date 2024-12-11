@@ -114,6 +114,9 @@ p {
   font-family: "Playfair Display";
   font-size: 2rem;
   font-weight: 550;
+  margin: 0;
+  padding: 0.5rem 0.25rem;
+  line-height: 2.5rem;
 }
 
 .about_section {
@@ -240,7 +243,7 @@ p {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
 }
 marquee{
   vertical-align: middle;
