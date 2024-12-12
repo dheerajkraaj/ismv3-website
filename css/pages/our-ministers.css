@@ -96,6 +96,13 @@
   font-weight: 600;
   /* line-height: 44px; */
 }
+.ism-hw-2_title_main{
+  color: #192F60;
+  font-family: "Playfair Display";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+}
 .ism-hw-2_subText{
   color: #1C1C1C;
   font-size: 1.05rem;
@@ -119,7 +126,8 @@ letter-spacing: 0.32px;
 }
 .gc-wrapper li {
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 2rem;
+  font-weight: 500;
 }
 strong{
   font-weight: 500;
