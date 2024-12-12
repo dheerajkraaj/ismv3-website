@@ -160,7 +160,7 @@ a {
   padding: 0;
 }
 /*=============== NAV ===============*/
-.nav {
+.nav__header {
   height: var(--header-height);
 }
 
@@ -377,7 +377,7 @@ a {
     margin-inline: auto;
   } */
 
-  .nav {
+  .nav__header {
     height: calc(var(--header-height) + 2rem);
     display: flex;
     justify-content: space-between;
