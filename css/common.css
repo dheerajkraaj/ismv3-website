@@ -1,0 +1,44 @@
+.accordion-button{
+  background: #fff;
+  color: #192F60;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 200% */
+letter-spacing: 0.28px;
+border: 1px solid #192f60;
+border-radius: 8px;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.accordion-button::after {
+  color: white; /* Set the desired color */
+}
+.accordion-button:not(.collapsed)::after {
+  color: #ff0000; /* Change the arrow color for expanded state */
+}
+/* .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #192F60;
+  box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+} */
+.accordion-body {
+  border: 1px solid #192f60;
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.scheme-view-more-btn{
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #F3F6FD;
+  color: #1c1c1c;
+  padding: 0.75rem;
+  border: none;
+  border: 1px solid #192f60;
+}

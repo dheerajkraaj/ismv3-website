@@ -178,9 +178,7 @@ p {
   background-position: center;
 }
 
-.testimonial-section {
-  background: #FFF;
-}
+
 
 .usefull_link_section {
   background: #F3F6FD;
@@ -363,7 +361,7 @@ btn:hover {
 
 #box-3 .item img {
   width: 100%;
-  height: 120px;
+  height: 150px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -626,8 +624,9 @@ footer ul li a img {
 
 
 /* Testimonial Section css */
-.testimonial {
-  /* background: #EEE; */
+
+.testimonial-section {
+  background: #FFF;
 }
 
 .testimonial-cell {
@@ -650,12 +649,12 @@ footer ul li a img {
   color: white;
 }
 
-.is-selected {
-  /* border: 1px solid; */
-  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
-  /* transform: scale(1.5);
-  transition: transform .2s; */
-}
+/* .is-selected {
+  border: 1px solid; 
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+   transform: scale(1.5);
+  transition: transform .2s;
+} */
 
 .cell1 {
   background: url(./images/testimonials/modi_ji.webp);
@@ -665,42 +664,37 @@ footer ul li a img {
 
 .cell2 {
   background: url(./images/testimonials/ashwini_ji.webp);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell3 {
   background: url(./images/testimonials/vellayan.webp);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell4 {
   background: url(./images/testimonials/pradeep.webp);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell5 {
   background: url(./images/testimonials/rusell.webp);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cell6 {
   background: url(./images/testimonials/sanjay.webp);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.flickity-page-dots {
+/* .flickity-page-dots {
   display: none
-}
+} */
 
 
 
@@ -934,12 +928,31 @@ ul li .descr::before {
 }
 }
 
-
-
+.desktop-scheme{
+  display: block;
+}
+.mobile-scheme{
+  display: none;
+}
+.mobile-marq{
+  display: none;
+}
 /*Responsive Media Queries */
 @media (max-width: 768px) {
   .ism-footer-logo-link{
     margin-bottom: 2rem;
+  }
+  .desktop-scheme{
+    display: none;
+  }
+  .mobile-scheme{
+    display: block;
+  }
+  .mobile-marq{
+    display: block;
+  }
+  .display-marq{
+    display: none;
   }
 }
 
@@ -961,5 +974,52 @@ ul li .descr::before {
   }
   .display-coll{
     display: block !important;
+  }
+  .cell1 {
+    background: url(./images/testimonials/modi_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cell2 {
+    background: url(./images/testimonials/ashwini_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cell3 {
+    background: url(./images/testimonials/vellayan_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cell4 {
+    background: url(./images/testimonials/pradeep_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cell5 {
+    background: url(./images/testimonials/russell_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .cell6 {
+    background: url(./images/testimonials/sanjay_ji_mobile.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #box-3 .item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .display-marq{
+    display: none;
+  }
+  .mobile-marq{
+    display: block;
   }
 }

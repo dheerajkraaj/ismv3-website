@@ -320,6 +320,8 @@ a {
   overflow: hidden;
   transition: max-height .4s ease-out;
   color: var(--white-color);
+  /* border-radius: 8px; */
+border: 1px solid #192f60;
 }
 
 /* Show dropdown menu & submenu */

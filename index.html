@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/common.css">
 
   <link rel="stylesheet" href="./css/flickety.css">
 </head>
@@ -178,23 +179,30 @@
     </div>
   </section>
 
-  <section class="ismv3-marquee">
+  <section class="ismv3-marquee display-marq">
     <div class="container">
       <div class="row">
-        <div class="d-flex justify-content-between align-content-center">  
-            <div class="align-content-center">
-              <p class="marquee-heading m-0"><span class="marquee-icon"><img
-                    src="images/icons/announcement_icon.png"></span>Announcements :</p>
-            </div>
-            <div class="align-content-center">
-              <marquee>SEMICON INDIA 2024 - Positioning India as a Trusted Partner in the Global Semiconductor Supply
-                Chain.
-              </marquee>
-            </div>
-      
+        <div class="col-md-2">  
+          <div class="align-content-center">
+            <p class="marquee-heading m-0"><span class="marquee-icon"><img
+                  src="images/icons/announcement_icon.png"></span>Announcements :</p>
+          </div>
+        </div>
+        <div class="col-md-10">    
+          <div class="align-content-center">
+            <marquee>SEMICON INDIA 2024 - Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain, SEMICON INDIA 2024 - Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain</marquee>
+          </div>
+        </div>      
         </div>
       </div>
     </div>
+  </section>
+  <section class="ismv3-marquee mobile-marq">
+    <div class="container">
+      <div class="row">
+                    <marquee>SEMICON INDIA 2024 - Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain, SEMICON INDIA 2024 - Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain</marquee>
+          </div>
+        </div>      
   </section>
 
   <!-- About ISM Section -->
@@ -291,7 +299,7 @@
     </div>
   </section>
 
-  <section class="scheme-section py-5">
+  <section class="scheme-section py-5 desktop-scheme">
     <div class="container">
       <div class="row mb-4">
         <div class="col-md-2">
@@ -436,6 +444,102 @@
   </section>
 
 
+  <section class="scheme-section py-5 mobile-scheme">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-2">
+          <p class="main-heading"><span><img src="images/icons/schemes_icon.png"></span>ISM</p>
+          <p class="sub-heading">Schemes</p>
+        </div>
+        <div class="col-md-10">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="ism-accoridan br-8">        
+          <div class="accordion gc-wrapper" id="accordionExample">
+
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingOne"><button aria-controls="collapseOne" aria-expanded="false"
+                  class="accordion-button collapsed" data-bs-target="#collapseOne" data-bs-toggle="collapse"
+                  type="button">Semiconductor Fab</button></h2>
+
+              <div aria-labelledby="headingOne" class="accordion-collapse collapse toggleAccordianDiv" id="collapseOne">
+                <div class="accordion-body">
+                  <div>
+                    <p>The Scheme for setting up of Semiconductor Fabs in India shall extend fiscal support of up to 50% of project cost on pari-passu basis to the approved applicants. The scheme shall be appraised by the Expenditure Finance Committee chaired by Secretary, Department of Expenditure. The Expenditure Finance Committee shall determine the structure and quantum of fiscal support under the scheme for establishing the semiconductor fabs.</p>
+                  </div>
+                  <div>
+                    <img src="./images/semiconductor_scheme.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="mt-3"><a href="/semiconductor-scheme.html"><button class="scheme-view-more-btn">View More</button></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingOne"><button aria-controls="collapseTwo" aria-expanded="false"
+                  class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse"
+                  type="button">Display Fab</button></h2>
+
+              <div aria-labelledby="headingOne" class="accordion-collapse collapse toggleAccordianDiv" id="collapseTwo">
+                <div class="accordion-body">
+                  <div>
+                    <p>The Scheme for setting up of Display Fabs in India shall extend fiscal support of up to 50% of project cost on pari-passu basis to the approved applicants. The scheme shall be appraised by the Expenditure Finance Committee chaired by Secretary, Department of Expenditure. The Expenditure Finance Committee shall determine the structure and quantum of fiscal support under the scheme for establishing the display fabs.                    </p>
+                  </div>
+                  <div>
+                    <img src="./images/display_scheme.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="mt-3"><a href="/display-scheme.html"><button class="scheme-view-more-btn">View More</button></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingOne"><button aria-controls="collapseThree" aria-expanded="false"
+                  class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse"
+                  type="button">Compound Semiconductor & Semiconductor ATMP</button></h2>
+
+              <div aria-labelledby="headingOne" class="accordion-collapse collapse toggleAccordianDiv" id="collapseThree">
+                <div class="accordion-body">
+                  <div>
+                    <p>The Scheme for setting up of Compound Semiconductors / Silicon Photonics / Sensors (including MEMS) Fabs / Discrete Semiconductors Fab and Semiconductor ATMP / OSAT facilities in India shall extend fiscal support of 50% of capital expenditure to Compound Semiconductors / Silicon Photonics / Sensors (including MEMS) Fabs and Semiconductor Packaging (ATMP / OSAT) units.</p>
+                  </div>
+                  <div>
+                    <img src="./images/compound_scheme.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="mt-3"><a href="/compound-scheme.html"><button class="scheme-view-more-btn">View More</button></a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingOne"><button aria-controls="collapseFour" aria-expanded="false"
+                  class="accordion-button collapsed" data-bs-target="#collapseFour" data-bs-toggle="collapse"
+                  type="button">Design Linked Incentive (DLI) </button></h2>
+
+              <div aria-labelledby="headingOne" class="accordion-collapse collapse toggleAccordianDiv" id="collapseFour">
+                <div class="accordion-body">
+                  <div>
+                    <p>The Design Linked Incentive (DLI) Scheme aims to offer financial incentives as well as design infrastructure support across various stages of development and deployment of semiconductor design(s) for Integrated Circuits (ICs), Chipsets, System on Chips (SoCs), Systems & IP Cores and semiconductor linked design(s) over a period of 5 years.</p>
+                  </div>
+                  <div>
+                    <img src="./images/design_scheme.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="mt-3"><a href="/design-link-scheme.html"><button class="scheme-view-more-btn">View More</button></a></div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <section class="timeline-section py-5">
     <div class="container">
       <div class="row mb-4">
@@ -511,10 +615,10 @@
     </div>
   </section>
 
-  <section class="journey-section py-5">
+  <section class="journey-section py-5 desktop-scheme">
     <div class="container">
       <div class="row">
-        <div class="col-5 pt-5">
+        <div class="col-md-5 pt-5">
           <div>
             <p class="main-heading text-blk"><span><img src="images/icons/journey_icon.png"></span>JOURNEY</p>
             <p class="sub-heading-blk">Through our Lenses</p>
@@ -523,12 +627,35 @@
             <h1 class="title">Welcome to New India!</h1>
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-md-7">
           <div class="thumbnail-container">
             <iframe allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen="" frameborder="0" id="i_video"
               src="https://www.youtube.com/embed/avEgNOFwUNE?autoplay=0&amp;mute=0?autoplay=1&amp;mute=1"
               title="YouTube video player" width="100%" height="450px;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="journey-section py-5 mobile-scheme">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div>
+            <p class="main-heading text-blk"><span><img src="images/icons/journey_icon.png"></span>JOURNEY</p>
+            <p class="sub-heading-blk">Through our Lenses</p>
+          </div>
+          <div class="">
+            <h1 class="title">Welcome to New India!</h1>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="thumbnail-container">
+            <iframe allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen="" frameborder="0" id="i_video"
+              src="https://www.youtube.com/embed/avEgNOFwUNE?autoplay=0&amp;mute=0?autoplay=1&amp;mute=1"
+              title="YouTube video player" width="100%" height="200px;"></iframe>
           </div>
         </div>
       </div>

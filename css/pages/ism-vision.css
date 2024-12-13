@@ -1,13 +1,11 @@
-.ismv3-intro-banner{
-  background-image: url(../../images/banners/ism-vision-banner.webp);
-  background-position: center;
-  background-size: cover;
-  height: 25vh;
-}
+
 .justify-items-ends{
   justify-items: end;
 }
 .scheme-thumbnail-container img {
   width: 100%;
   height: 348px;
+}
+@media (max-width: 568px) {
+
 }
