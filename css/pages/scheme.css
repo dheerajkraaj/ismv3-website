@@ -145,3 +145,7 @@
     text-align: center;
   }
  }
+
+ .sub-heading span{
+  border-bottom: 3px solid var(--primary-color);
+ }
