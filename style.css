@@ -937,8 +937,13 @@ ul li .descr::before {
 .mobile-scheme{
   display: none;
 }
-.mobile-marq{
+
+
+.mobile-version{
   display: none;
+}
+.desktop-version{
+  display: block;
 }
 /*Responsive Media Queries */
 @media (max-width: 768px) {
@@ -951,10 +956,10 @@ ul li .descr::before {
   .mobile-scheme{
     display: block;
   }
-  .mobile-marq{
+  .mobile-version{
     display: block;
   }
-  .display-marq{
+  .desktop-version{
     display: none;
   }
 }
@@ -1019,10 +1024,10 @@ ul li .descr::before {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
-  .display-marq{
+  .desktop-version{
     display: none;
   }
-  .mobile-marq{
+  .mobile-version{
     display: block;
   }
 }
