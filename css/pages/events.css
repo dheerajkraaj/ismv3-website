@@ -16,3 +16,149 @@
 .col-md-6{
   margin-bottom: 1.5rem;
 }
+
+.events-main-banner{
+  background-position: center;
+  background-size: cover;
+  height:95vh;
+}
+.marquee_inline a {
+  color: #fff;
+}
+.semi-2024{
+  background-image: url(../../images/semicon_india_2024_banner_approved_pmo.webp);
+}
+.ses-2024{
+  background-image: url(../../images/SESBanner_2.webp);
+}
+.semiCon-2024{
+  background-image: url(../../images/semi_conferrence_2023.png);
+}
+.semi-2022{
+  background-image: url(../../images/semicon_2022_banner.jpg);
+}
+.highlights-cards{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.highlights-cards h3{
+  font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 0.46px;
+}
+.details-cards {
+  background: #F3F6FD;
+  padding: 2rem;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.details-cards_title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
+.details-cards_content {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.32px;
+}
+.ism-generic_tabbing.v3 .nav-tabs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  flex-wrap: nowrap;
+}
+.ism-generic_tabbing .nav-tabs {
+  border-bottom: none;
+  border: 1px solid rgba(var(#192F60), 0.7);
+  margin-bottom: 1.5rem;
+}
+
+.ism-generic_tabbing .nav-tabs .nav-link.active {
+  background-color: #192F60;
+  color: #fff !important;
+  /* border: 1px solid #fff; */
+}
+.ism-generic_tabbing .nav-tabs .nav-link {
+  width: 100%;
+  background-color: #fff;
+  border-color: rgba(var(#192F60), 0.7);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding: 1rem;
+  outline: none !important;
+  color: #1c1c1c;
+  font-size: 1rem;
+  border-top: none;
+  border-bottom: none;
+  /* border-radius: 5rem;
+  border: 1px solid #192f60; */
+}
+.ism-generic_tabbing.v3 .nav-tabs .nav-item {
+  flex: 1;
+}
+
+#myCarousel {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+      display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-item-next:not(.carousel-item-start) {
+      transform: translateX(25%) !important;
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-item-prev:not(.carousel-item-end),
+  .active.carousel-item-start,
+  .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+  }
+
+  .carousel-item-next.carousel-item-start,
+  .active.carousel-item-end {
+      transform: translateX(0) !important;
+  }
+
+  .carousel-inner .carousel-item-prev,
+  .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+  }
+}
