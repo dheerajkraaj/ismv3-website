@@ -121,6 +121,24 @@ letter-spacing: 0.46px;
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }
+/* .contact_details_content::before, .contact_details_content::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #fff;
+  transition: all 0.5s;
+  -webkit-animation: clippath 3s infinite linear;
+  animation: clippath 3s infinite linear;
+  border-radius: 10px;
+} */
+ .MsoTableGrid p{
+  margin: 0.35rem;
+  font-family: poppins;
+  font-size: 15px;
+ }
 .ism-generic_tabbing.v3 .nav-tabs {
   display: -webkit-box;
   display: -moz-box;
@@ -167,10 +185,104 @@ letter-spacing: 0.46px;
 .ism-generic_tabbing.v3 .nav-tabs .nav-item {
   flex: 1;
 }
-
+.table p{
+  margin-bottom: 0;
+}
+.table .primary_row td{
+  background-color: #192F60;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.table .primary_header th{
+  background-color: #fff;
+  color: #1c1c1c;
+}
+.schedule-item-head .agenda-time-card{
+  border-left: 1px solid #192f60;
+  border-right: 1px solid #192f60;;
+  padding: 1rem;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+.agenda-time-card, time{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #192F60;
+  font-family: poppins;
+  margin-bottom: 1rem;
+}
 #myCarousel {
   margin-top: 50px;
 }
+.semi_Dignitaries{
+  background: #F3F6FD;
+}
+.semi_Dignitaries .img-card {
+  width: 100%;
+  position: relative;
+  margin: 10px auto;
+  min-height: 370px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+.semi_Dignitaries .img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s all ease-in-out;
+}
+.semi_Dignitaries .img-card .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0.13%, transparent 52.51%);
+  z-index: 9;
+  border-radius: 8px;
+  border: 1px solid #192f60;
+}
+.semi_Dignitaries .img-card .content {
+  color: white;
+  font-weight: normal;
+  line-height: normal;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 99;
+  padding: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  max-height: 120px;
+  top: auto;
+  transition: 0.5s all ease-in-out;
+  justify-content: end;
+}
+.semi_Dignitaries .content h3{
+  font-size: 1.5rem;
+  font-family: poppins;
+}
+.semi_Dignitaries .content p{
+  font-size: 0.75rem;
+  font-family: poppins;
+}
+
+
+
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item>div {

@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ISM Website</title>
   <link rel="icon" href="/images/favicon.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,271 +10,546 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/common.css">
+
+  <link rel="stylesheet" href="./css/flickety.css">
   <link rel="stylesheet" href="./css/pages/events.css">
 </head>
 
 <body>
 
-<!--=============== HEADER ===============-->
-<main class="ism-v3-header__topBar show-topBar">
-  <div class="container">
+  <!--=============== HEADER ===============-->
+  <main class="ism-v3-header__topBar show-topBar">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="date-time">23 October, 2024 | </div>
+            <div class="date-time"> &nbsp;04 : 12 : 09 PM</div>
+          </div>
+          <div class="special-feature">
+            <ul class="navbar-nav navList d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Skip to main content | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Screen Reader Access | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> A A A+ A- A | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> English</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container logo-container">
     <div class="row">
-      <div class="d-flex justify-content-between">
-        <div class="d-flex">
-          <div class="date-time">23 October, 2024 | </div>
-          <div class="date-time"> &nbsp;04 : 12 : 09 PM</div>
-        </div>
-        <div class="special-feature">
-          <ul class="navbar-nav navList d-flex flex-row">
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Skip to main content | </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Screen Reader Access | </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> A A A+ A- A | </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> English</a>
-            </li>
-          </ul>
+      <div class="col-sm-12">
+        <div class="ism-header__main_box d-flex justify-content-between py-3">
+          <div class="ism-header__main_box text-left"><a aria-label="Miety logo" class="miety-logo"
+              href="https://www.meity.gov.in/" target="_blank"><img alt="Miety logo" class="img-fluid"
+                src="images/header/meity_header_logo.png"> </a>
+          </div>
+          <div class="ism-header__main_box text-center"><a aria-label="Miety logo" class="miety-logo"
+              href="/index.html"><img alt="Digital india logo" class="img-fluid"
+                src="images/header/ism_header_logo.png"></a>
+          </div>
+          <div class="ism-header__main_box text-right"><a aria-label="Miety logo" class="miety-logo"
+              href="https://dic.gov.in/" target="_blank"><img alt="Digital india logo" class="img-fluid"
+                src="images/header/digi_india_header_logo.png"></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</main> 
-<div class="container logo-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="ism-header__main_box d-flex justify-content-between py-3">
-        <div class="ism-header__main_box text-left"><a aria-label="Miety logo" class="miety-logo"
-            href="https://www.meity.gov.in/" target="_blank"><img alt="Miety logo" class="img-fluid"
-              src="images/header/meity_header_logo.png"> </a>
-        </div>
-        <div class="ism-header__main_box text-center"><a aria-label="Miety logo" class="miety-logo"
-            href="/index.html"><img alt="Digital india logo" class="img-fluid"
-              src="images/header/ism_header_logo.png"></a>
-        </div>
-        <div class="ism-header__main_box text-right"><a aria-label="Miety logo" class="miety-logo"
-            href="https://dic.gov.in/" target="_blank"><img alt="Digital india logo" class="img-fluid"
-              src="images/header/digi_india_header_logo.png"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<header class="header">
-  <nav class="nav nav__header container">
-     <!--=============== NAV MENU ===============-->
-     <div class="nav__menu" id="nav-menu">
+  <header class="header">
+    <nav class="nav nav__header container">
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-           <li><a href="/index.html" class="nav__link">Home</a></li>
-           <li class="dropdown__item">
+          <li><a href="/index.html" class="nav__link">Home</a></li>
+          <li class="dropdown__item">
             <div class="nav__link">
               About ISM <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>           
+            </div>
             <ul class="dropdown__menu">
-               <li><a class="dropdown__link" href="/our-ministers.html">Our Ministers</a></li> 
-                <li><a class="dropdown__link" href="/about-us.html">About ISM</a></li>
-                <li><a class="dropdown__link" href="/ism-vision.html">Vision and Objectives</a></li>
-                <li><a class="dropdown__link" href="/our-team.html">Our Team</a></li>
-                <li><a class="dropdown__link" href="/ism-commitee.html">ISM Committee</a></li> 
-                <li><a class="dropdown__link" href="/advisory-commitee.html">Advisory Committee</a></li>
-                <li><a class="dropdown__link" href="/useful-links.html">Useful Links</a></li>
+              <li><a class="dropdown__link" href="/our-ministers.html">Our Ministers</a></li>
+              <li><a class="dropdown__link" href="/about-us.html">About ISM</a></li>
+              <li><a class="dropdown__link" href="/ism-vision.html">Vision and Objectives</a></li>
+              <li><a class="dropdown__link" href="/our-team.html">Our Team</a></li>
+              <li><a class="dropdown__link" href="/ism-commitee.html">ISM Committee</a></li>
+              <li><a class="dropdown__link" href="/advisory-commitee.html">Advisory Committee</a></li>
+              <li><a class="dropdown__link" href="/useful-links.html">Useful Links</a></li>
             </ul>
-         </li>
-         <li class="dropdown__item">
-          <div class="nav__link">
-            SemiconIndia <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-          </div>           
-          <ul class="dropdown__menu">               
-             <li><a class="dropdown__link" href="/about-semicon.html">About SemiconIndia</a></li>
-             <li><a class="dropdown__link" href="https://ism.gov.in/semicon-2024.html">SEMICON INDIA 2024</a></li>
-             <li><a class="dropdown__link" href="https://ism.gov.in/semicon2023.html">SemiconIndia 2023</a></li>
-             <li> <a class="dropdown__link" href="https://ism.gov.in/semicon2022.html">SemiconIndia 2022</a></li>
-          </ul>
-       </li>
-       <li class="dropdown__item">
-        <div class="nav__link">
-          Schemes <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-        </div>           
-        <ul class="dropdown__menu">
-           <li><a class="dropdown__link" href="/semiconductor-scheme.html">Semiconductor Fabs</a></li>
-           <li><a class="dropdown__link" href="/display-scheme.html">Display Fabs</a></li>
-           <li><a class="dropdown__link" href="/compound-scheme.html">Compound/ATMP/OSAT</a></li>
-           <li><a class="dropdown__link" href="/design-link-scheme.html">Design Linked Incentive</a></li>
-        </ul>
-     </li>
-     <li class="dropdown__item">
-      <div class="nav__link">
-        Notifications <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-      </div>
-      <ul class="dropdown__menu">
-         <li>
-            <a class="dropdown__link"  href="/notices.html">Notices</a>                          
-         </li>
+          </li>
+          <li class="dropdown__item">
+            <div class="nav__link">
+              SemiconIndia <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li><a class="dropdown__link" href="/about-semicon.html">About SemiconIndia</a></li>
+              <li><a class="dropdown__link" href="https://ism.gov.in/semicon-2024.html">SEMICON INDIA 2024</a></li>
+              <li><a class="dropdown__link" href="https://ism.gov.in/semicon2023.html">SemiconIndia 2023</a></li>
+              <li> <a class="dropdown__link" href="https://ism.gov.in/semicon2022.html">SemiconIndia 2022</a></li>
+            </ul>
+          </li>
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Schemes <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li><a class="dropdown__link" href="/semiconductor-scheme.html">Semiconductor Fabs</a></li>
+              <li><a class="dropdown__link" href="/display-scheme.html">Display Fabs</a></li>
+              <li><a class="dropdown__link" href="/compound-scheme.html">Compound/ATMP/OSAT</a></li>
+              <li><a class="dropdown__link" href="/design-link-scheme.html">Design Linked Incentive</a></li>
+            </ul>
+          </li>
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Notifications <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li>
+                <a class="dropdown__link" href="/notices.html">Notices</a>
+              </li>
 
-         <li>
-            <a href="/tenders.html" class="dropdown__link">Tenders</a>
-         </li>
-         <li>
-            <a href="/downloads.html" class="dropdown__link">Downloads</a>
-         </li>
-         <li>
-          <a href="/career.html" class="dropdown__link">Careers</a>
-       </li>
-      </ul>
-   </li>
-           <li><a href="/gallery.html" class="nav__link">Gallery</a></li>
-           <li><a href="/events.html" class="nav__link"> <span class="header_active__link">Events</span></a></li>
-           <li><a href="/faqs.html" class="nav__link">FAQs</a></li>
-           <li><a href="/contact-us.html" class="nav__link">Contact Us</a></li>       
+              <li>
+                <a href="/tenders.html" class="dropdown__link">Tenders</a>
+              </li>
+              <li>
+                <a href="/downloads.html" class="dropdown__link">Downloads</a>
+              </li>
+              <li>
+                <a href="/career.html" class="dropdown__link">Careers</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/gallery.html" class="nav__link">Gallery</a></li>
+          <li><a href="/events.html" class="nav__link"> <span class="header_active__link">Events</span></a></li>
+          <li><a href="/faqs.html" class="nav__link">FAQs</a></li>
+          <li><a href="/contact-us.html" class="nav__link">Contact Us</a></li>
         </ul>
-     </div>
+      </div>
 
-     <div class="nav__data">
-      <a href="#" class="nav__logo">
-        <img alt="Digital india logo" class="img-fluid"
-            src="images/header/ism_header_logo.png">
-      </a>
-      <div class="social-part">
-        <a href="https://x.com/Semicon_India" target="_blank"><img src="/images/header/x_header_icon.png" alt=""></a>
-        <a href="https://www.instagram.com/ism_indiasemiconductor/" target="_blank"><img src="/images/header/insta_header_icon.png"
-            alt=""></a>
-        <a href="https://www.linkedin.com/company/indiasemiconductormission/" target="_blank"><img
-            src="/images/header/linkedin_header_icon.png" alt=""></a>
-        <a href="https://www.youtube.com/@IndiaSemiconductorMission" target="_blank"><img src="/images/header/youtube_header_icon.png"
-            alt=""></a>
-      </div>
-      <div class="nav__toggle" id="nav-toggle">
-         <i class="ri-menu-line nav__burger"></i>
-         <i class="ri-close-line nav__close"></i>
-      </div>
-   </div>
-  </nav>
-</header>
-<section>
-  <div class="">
-    <div class="events-main-banner ses-2024"></div>
-  </div>
-</section>
-<section class="about_section py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 align-content-center">
-        <div class=""><img src="./images/momento.webp" alt="" class="img-fluid"></div>
-      </div>
-      <div class="col-md-6 d-flex flex-column justify-content-center">
-        <div class="">
-          <p class="main-heading">ABOUT</p>
-          <p class="sub-heading">Semiconductor Executives' Summit 2024</p>
+      <div class="nav__data">
+        <a href="#" class="nav__logo">
+          <img alt="Digital india logo" class="img-fluid" src="images/header/ism_header_logo.png">
+        </a>
+        <div class="social-part">
+          <a href="https://x.com/Semicon_India" target="_blank"><img src="/images/header/x_header_icon.png" alt=""></a>
+          <a href="https://www.instagram.com/ism_indiasemiconductor/" target="_blank"><img
+              src="/images/header/insta_header_icon.png" alt=""></a>
+          <a href="https://www.linkedin.com/company/indiasemiconductormission/" target="_blank"><img
+              src="/images/header/linkedin_header_icon.png" alt=""></a>
+          <a href="https://www.youtube.com/@IndiaSemiconductorMission" target="_blank"><img
+              src="/images/header/youtube_header_icon.png" alt=""></a>
         </div>
-        <p>Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain</p>
-        <div class="text-center highlights-cards">
-          <p class="main-heading">HIGHLIGHTS</p>
-          <p>Held on 10th of September, 2024</p>
-          <h3>Semiconductor Executives' Summit 2024</h3>
-          <p>at Bharat Mandapam, New Delhi.</p>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="">
+      <div class="events-main-banner ses-2024"></div>
+    </div>
+  </section>
+  <section class="about_section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-content-center">
+          <div class=""><img src="./images/events/SES-2024.webp" alt="" class="img-fluid"></div>
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div class="">
+            <p class="main-heading">ABOUT</p>
+            <p class="sub-heading">Semiconductor Executives' Summit 2024</p>
+          </div>
+          <p>Positioning India as a Trusted Partner in the Global Semiconductor Supply Chain</p>
+          <div class="text-center highlights-cards">
+            <p class="main-heading">HIGHLIGHTS</p>
+            <p>Held on 10th of September, 2024</p>
+            <h3>Semiconductor Executives' Summit 2024</h3>
+            <p>at Bharat Mandapam, New Delhi.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
+  <section class="semi_Dignitaries">
+		<div class="container custom_container">
+      
+      <div class="row justify-content-center">
+        <div class="col-12">
+					<p class="sub-heading my-5"><span>EVENT DIGNITARIES</span></p>
+				</div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <div class="img-card ratio ratio-9x16"><img alt="Speaker 1" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/dist/images_2/Honorable_Minister_Ashwini_Vaishnaw_Picture.jpg" title="speaker">
+        <div class="overlay">&nbsp;</div>
+        
+        <div class="content">
+        <h3>Shri Ashwini Vaishnaw</h3>
+        
+        <p>Hon'ble Railways, Communications, Electronics &amp; Information Technology Minister , Government of India</p>
+        </div>
+        
+        <div class="overlay">&nbsp;</div>
+        </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <div class="img-card ratio ratio-9x16"><img alt="Speaker 5" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/dist/images_2/banner/Jitni_Prasada_MOS_1.webp" title="speaker">
+        <div class="overlay">&nbsp;</div>
+        
+        <div class="content">
+        <h3>Shri Jitin Prasada</h3>
+        
+        <p>Hon'ble Minister of State for Electronics &amp; Information Technology</p>
+        </div>
+        
+        <div class="overlay">&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="img-card ratio ratio-9x16 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"><img alt="Speaker 4" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/speakers/ShriSKrishnan.webp" title="speaker">
+          <div class="overlay">&nbsp;</div>
+          
+          <div class="content">
+          <h3>Shri S. Krishnan</h3>
+          
+          <p>Secretary MeitY</p>
+          </div>
+          </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="img-card ratio ratio-9x16 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"><img alt="Speaker 4" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/dist/images_2/AkashTripathi_CEO.webp" title="speaker">
+          <div class="overlay">&nbsp;</div>
+          
+          <div class="content">
+          <h3>Akash Tripathi</h3>
+          
+          <p>CEO, India Semiconductor Mission (ISM)</p>
+          </div>
+          </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="img-card ratio ratio-9x16 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"><img alt="Speaker 4" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/speakers/AjitManocha.webp" title="speaker">
+          <div class="overlay">&nbsp;</div>
+          
+          <div class="content">
+          <h3>Shri Ajit Manocha</h3>
+          
+          <p>CEO, SEMI</p>
+          </div>
+          </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="img-card ratio ratio-9x16 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"><img alt="Speaker 4" class="img-fluid" src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/speakers/ShriPankajMohindroo.webp" title="speaker">
+          <div class="overlay">&nbsp;</div>
+          
+          <div class="content">
+          <h3>Shri Pankaj Mohindroo</h3>
+          
+          <p>Chairman, ICEA</p>
+          </div>
+          </div>
+          </div>
+          </div>
+		</div>
+	</section>
   <section class="gallery-section py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6 mb-4">
-          <p class="main-heading d-none"><span><img src="images/icons/gallery_icon.png"></span>GALLERY</p>
           <p class="sub-heading">GALLERY</p>
         </div>
-        <!-- <div class="col-sm-12 col-md-6 text-sm-center text-md-end mb-4 desktop-version">
-          <a href="/gallery.html" class="theme-Btn theme-Btn-dark">View More<span><img src="./images/arrow-btn_icon.png" alt="" class="ml-3"></span></a>
-        </div> -->
       </div>
       <div class="row">
         <div class="col">
           <div id="box-2" class="owl-carousel owl-theme owl-loaded owl-drag">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3811px, 0px, 0px); transition: 0.25s; width: 8316px;"><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_31.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_32.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_33.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_34.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_35.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_36.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_15.jpeg" alt="Owl Image">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_16.jpeg" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_19.jpeg" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_28.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_29.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item active" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_30.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item active" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_31.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item active" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_32.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item active" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_33.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_34.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_35.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_36.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_15.jpeg" alt="Owl Image">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_16.jpeg" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_19.jpeg" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_28.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_29.webp" alt="Owl Image" class="img-fluid">
-            </div></div><div class="owl-item cloned" style="width: 336.5px; margin-right: 10px;"><div class="item">
-              <img src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/gallery/SemiconGallery_2024_30.webp" alt="Owl Image" class="img-fluid">
-            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+
+            <div class="owl-stage-outer">
+              <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 16824px;">
+                <div class="owl-item active" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_0.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_1.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_2_1.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_3.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_4.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_5.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_6.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_7.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_8.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_9.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_10.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_11.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_12.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_13.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_14.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_14_1.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_14_2.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_14_3.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_15.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_16.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_17.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_18.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_19.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_20.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_21.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_22.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_23.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_24.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_25.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_26.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_27.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_28.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_29.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_31.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_32.webp">
+                    </a></div>
+                </div>
+                <div class="owl-item" style="width: 457.333px; margin-right: 10px;">
+                  <div class="item"><a class="ratio ratio-4x3" data-fancybox="gallery"
+                      href="#"><img
+                        alt="logo" class="img-fluid"
+                        src="https://d2p5j06zete1i7.cloudfront.net/static/semiconindia2024/ses_gallery/ses_gallery_2024_33.webp">
+                    </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 text-center mobile-version mt-3">
-        <a href="/gallery.html" class="theme-Btn theme-Btn-dark">View More<span><img src="./images/arrow-btn_icon.png" alt="" class="ml-3"></span></a>
-      </div>
+
     </div>
 
   </section>
-	<section class="usefull_link_section py-5">
-		<div class="container">
-			<div class="row">
+  <section class="usefull_link_section py-5">
+    <div class="container">
+      <div class="row">
         <div class="col-sm-12">
           <p class="sub-heading">Agenda</p>
         </div>
@@ -286,105 +558,221 @@
         <!-- <section class="section-with-table p-0">
           <div class="event-c-tableGrid__container">
           <div class="event-c-tableGrid__box table-responsive withScroll"> -->
-          <table class="table table-bordered bg-light-offwhite-2024">
-            <tbody>
-              <tr style="height: 16.4pt">
-                <td colspan="3" style="width: 550.9pt; border: solid black 1pt" width="735">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 262.2pt; margin-bottom: 0.0001pt; margin-left: 262.35pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm"><span style="height: 16.4pt"><b><span lang="EN-US">Minute to Minute AGENDA for 10th September 2024 </span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 20.25pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: #001f5f" width="200">
-                <p class="TableParagraph" style="margin-top: 5.55pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 10.75pt; padding: 0cm 0cm 0cm 0cm; width:200px;"><span style="height: 20.25pt"><b><span lang="EN-US"><span style="color: white">Time (Hrs)</span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-                <td colspan="2" style="width: 225.05pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: #001f5f" width="300">
-                <p class="TableParagraph" style="margin-top: 5.55pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 74.65pt; padding: 0cm 0cm 0cm 0cm;"><span style="height: 20.25pt"><b><span lang="EN-US"><span style="color: white">Particulars</span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 15.7pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">09:30 AM - 10:00 AM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 140.4pt; text-align: center; padding: 0cm 0cm 0cm 0cm;"><span style="height: 15.7pt"><b><span lang="EN-US"><span style="color: white">Arrival, registration, tea/coffee</span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 13.75pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 13.75pt"><span lang="EN-US"><span style="color: white">10:00 AM - 10:05 AM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 144.25pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm;"><span style="height: 13.75pt"><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt">Welcome Remarks by CEO, SEMI Shri Ajit Manocha </span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 16.5pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">10:05 AM - 10:10 AM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 550.9pt; border: solid black 1pt; border-top: none; background: gray" width="735">
-                <p class="TableParagraph" style="margin-left: 8.95pt; padding: 0cm 0cm 0cm 0cm;"><span style="height: 16.5pt"><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt">Welcome Address by Secretary, MeitY</span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 17.85pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 17.85pt"><span lang="EN-US"><span style="color: white">10:10 AM - 10:20 AM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 149.7pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm;"><span style="height: 17.85pt"><b><span lang="EN-US"><span style="color: white"> Introductory Remarks by Hon’ble MoS Shri Jitin Prasada </span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 17.7pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-top: 2.1pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 17.7pt"><span lang="EN-US"><span style="color: white">10:20 AM - 01:38 PM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.1pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm"><span style="height: 17.7pt"><b><span lang="EN-US"><span style="color: white">Discussion on Positioning India as the trusted partner in the global semiconductor supply chain with Industry leaders, academicians, and state representatives<br>
-                Chaired by Hon’ble MEIT Shri Ashwini Vaishnaw (3 min. each, no slides) </span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-                <td colspan="" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.1pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm"><span style="height: 17.7pt"><b><span lang="EN-US"><span style="color: white">Micron, Renesas/CG Power, Tata // Advantest, AMD, Applied Materials, Arm, Cadence Design Systems, Exyte Management GmbH, Globalfoundries, Horiba, imec, Infineon, Jacobs, KLA, L &amp; T, Lam Research, Merck/EMD, NXP Semiconductors, Rapidus, Renesas, Tata Electronics, Teradyne, Tokyo Electron, Tower Semiconductor // AXIS Bank, SEMI, HCL, Stanford, UCSD, academicians, states </span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 15.7pt">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">01:28 PM - 01:30 PM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 140.4pt; text-align: center; padding: 0cm 0cm 0cm 0cm;"><span style="height: 15.7pt"><b><span lang="EN-US"><span style="color: white">Vote of Thanks - Chairman, ICEA Shri Pankaj Mohindroo</span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 13.75pt;background: #6f2f9f">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 13.75pt"><span lang="EN-US"><span style="color: white">01:30 PM - 02:15 PM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt;" width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 144.25pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm"><span style="height: 13.75pt"><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"> Lunch @ Bharat Mandapam </span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 16.5pt;background: #6f2f9f">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
-                <p class="TableParagraph" style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm"><span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">02:15 PM - 03:00 PM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 550.9pt; border: solid black 1pt; border-top: none;" width="735">
-                <p class="TableParagraph" style="margin-left: 8.95pt; padding: 0cm 0cm 0cm 0cm;text-align: center !important;"><span style="height: 16.5pt"><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt">Return to Oberoi Hotel</span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-              <tr style="height: 17.85pt;background: #6f2f9f">
-                <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
-                <p class="TableParagraph" style="margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm;"><span style="height: 17.85pt"><span lang="EN-US"><span style="color: white">07:30 PM - 09:30 PM</span></span><span lang="EN-US"></span></span></p>
-                </td>
-                <td colspan="2" style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; " width="627">
-                <p align="center" class="TableParagraph" style="margin-top: 2.2pt; margin-right: 149.7pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm"><span style="height: 17.85pt"><b><span lang="EN-US"><span style="color: white"> VIP Dinner hosted by Secretary MeitY at Taj Palace Hotel, Delhi </span></span></b><b><span lang="EN-US"></span></b></span></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <!-- </div>
+        <table class="table table-bordered bg-light-offwhite-2024">
+          <tbody>
+            <tr style="height: 16.4pt">
+              <td colspan="3" style="width: 550.9pt; border: solid black 1pt" width="735">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 262.2pt; margin-bottom: 0.0001pt; margin-left: 262.35pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 16.4pt"><b><span lang="EN-US">Minute to Minute AGENDA for 10th September 2024
+                      </span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 20.25pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: #001f5f" width="200">
+                <p class="TableParagraph"
+                  style="margin-top: 5.55pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 10.75pt; padding: 0cm 0cm 0cm 0cm; width:200px;">
+                  <span style="height: 20.25pt"><b><span lang="EN-US"><span style="color: white">Time
+                          (Hrs)</span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+              <td colspan="2"
+                style="width: 225.05pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: #001f5f"
+                width="300">
+                <p class="TableParagraph"
+                  style="margin-top: 5.55pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 74.65pt; padding: 0cm 0cm 0cm 0cm;">
+                  <span style="height: 20.25pt"><b><span lang="EN-US"><span
+                          style="color: white">Particulars</span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 15.7pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">09:30 AM - 10:00
+                        AM</span></span><span lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 140.4pt; text-align: center; padding: 0cm 0cm 0cm 0cm;">
+                  <span style="height: 15.7pt"><b><span lang="EN-US"><span style="color: white">Arrival, registration,
+                          tea/coffee</span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 13.75pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 13.75pt"><span lang="EN-US"><span style="color: white">10:00 AM - 10:05
+                        AM</span></span><span lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 144.25pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm;">
+                  <span style="height: 13.75pt"><b><span lang="EN-US"><span style="color: white"><span
+                            style="letter-spacing: -0.05pt">Welcome Remarks by CEO, SEMI Shri Ajit Manocha
+                          </span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span
+                            style="letter-spacing: -0.05pt"></span></span></span></b><b> </b><b><span lang="EN-US"><span
+                          style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span
+                        lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 16.5pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">10:05 AM - 10:10
+                        AM</span></span><span lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2" style="width: 550.9pt; border: solid black 1pt; border-top: none; background: gray"
+                width="735">
+                <p class="TableParagraph" style="margin-left: 8.95pt; padding: 0cm 0cm 0cm 0cm;"><span
+                    style="height: 16.5pt"><b><span lang="EN-US"><span style="color: white"><span
+                            style="letter-spacing: -0.05pt">Welcome Address by Secretary,
+                            MeitY</span></span></span></b><b> </b><b><span lang="EN-US"><span style="color: white"><span
+                            style="letter-spacing: -0.05pt"></span></span></span></b><b><span
+                        lang="EN-US"></span></b></span></p>
+              </td>
+            </tr>
+            <tr style="height: 17.85pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph" style="margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm"><span
+                    style="height: 17.85pt"><span lang="EN-US"><span style="color: white">10:10 AM - 10:20
+                        AM</span></span><span lang="EN-US"></span></span></p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 149.7pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center; padding: 0cm 0cm 0cm 0cm;">
+                  <span style="height: 17.85pt"><b><span lang="EN-US"><span style="color: white"> Introductory Remarks
+                          by Hon’ble MoS Shri Jitin Prasada </span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 17.7pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.1pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 17.7pt"><span lang="EN-US"><span style="color: white">10:20 AM - 01:38
+                        PM</span></span><span lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan=""
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph" style="text-align: center; padding: 0cm 0cm 0cm 0cm"><span
+                    style="height: 17.7pt"><b><span lang="EN-US"><span style="color: white">Discussion on Positioning
+                          India as the trusted partner in the global semiconductor supply chain with Industry leaders,
+                          academicians, and state representatives<br>
+                          Chaired by Hon’ble MEIT Shri Ashwini Vaishnaw (3 min. each, no slides)
+                        </span></span></b><b><span lang="EN-US"></span></b></span></p>
+              </td>
+              <td colspan=""
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph" style="text-align: center; padding: 0cm 0cm 0cm 0cm"><span
+                    style="height: 17.7pt"><b><span lang="EN-US"><span style="color: white">Micron, Renesas/CG Power,
+                          Tata // Advantest, AMD, Applied Materials, Arm, Cadence Design Systems, Exyte Management GmbH,
+                          Globalfoundries, Horiba, imec, Infineon, Jacobs, KLA, L &amp; T, Lam Research, Merck/EMD, NXP
+                          Semiconductors, Rapidus, Renesas, Tata Electronics, Teradyne, Tokyo Electron, Tower
+                          Semiconductor // AXIS Bank, SEMI, HCL, Stanford, UCSD, academicians, states
+                        </span></span></b><b><span lang="EN-US"></span></b></span></p>
+              </td>
+            </tr>
+            <tr style="height: 15.7pt">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none; background: gray" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 15.7pt"><span lang="EN-US"><span style="color: white">01:28 PM - 01:30
+                        PM</span></span><span lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; background: gray"
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 149.85pt; margin-bottom: 0.0001pt; margin-left: 140.4pt; text-align: center; padding: 0cm 0cm 0cm 0cm;">
+                  <span style="height: 15.7pt"><b><span lang="EN-US"><span style="color: white">Vote of Thanks -
+                          Chairman, ICEA Shri Pankaj Mohindroo</span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 13.75pt;background: #6f2f9f">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 13.75pt"><span lang="EN-US"><span style="">01:30 PM - 02:15 PM</span></span><span
+                      lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt;"
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 144.25pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 13.75pt"><b><span lang="EN-US"><span style=""><span
+                            style="letter-spacing: -0.05pt"> Lunch @ Bharat Mandapam </span></span></span></b><b>
+                    </b><b><span lang="EN-US"><span style="color: white"><span
+                            style="letter-spacing: -0.05pt"></span></span></span></b><b> </b><b><span lang="EN-US"><span
+                          style="color: white"><span style="letter-spacing: -0.05pt"></span></span></span></b><b><span
+                        lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 16.5pt;background: #6f2f9f">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
+                <p class="TableParagraph"
+                  style="margin-top: 2.7pt; margin-right: 0cm; margin-bottom: 0.0001pt; margin-left: 4.3pt; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 15.7pt"><span lang="EN-US"><span style="">02:15 PM - 03:00 PM</span></span><span
+                      lang="EN-US"></span></span>
+                </p>
+              </td>
+              <td colspan="2" style="width: 550.9pt; border: solid black 1pt; border-top: none;" width="735">
+                <p class="TableParagraph"
+                  style="margin-left: 8.95pt; padding: 0cm 0cm 0cm 0cm;text-align: center !important;"><span
+                    style="height: 16.5pt"><b><span lang="EN-US"><span style=""><span
+                            style="letter-spacing: -0.05pt">Return to Oberoi Hotel</span></span></span></b><b>
+                    </b><b><span lang="EN-US"><span style=""><span
+                            style="letter-spacing: -0.05pt"></span></span></span></b><b><span
+                        lang="EN-US"></span></b></span></p>
+              </td>
+            </tr>
+            <tr style="height: 17.85pt;background: #6f2f9f">
+              <td style="width: 80.9pt; border: solid black 1pt; border-top: none;" width="108">
+                <p class="TableParagraph" style="margin-left: 3.2pt; padding: 0cm 0cm 0cm 0cm;"><span
+                    style="height: 17.85pt"><span lang="EN-US"><span style="">07:30 PM - 09:30 PM</span></span><span
+                      lang="EN-US"></span></span></p>
+              </td>
+              <td colspan="2"
+                style="width: 470pt; border-top: none; border-left: none; border-bottom: solid black 1pt; border-right: solid black 1pt; "
+                width="627">
+                <p align="center" class="TableParagraph"
+                  style="margin-top: 2.2pt; margin-right: 149.7pt; margin-bottom: 0.0001pt; margin-left: 151.6pt; text-align: center !important; padding: 0cm 0cm 0cm 0cm">
+                  <span style="height: 17.85pt"><b><span lang="EN-US"><span style=""> VIP Dinner hosted by Secretary
+                          MeitY at Taj Palace Hotel, Delhi </span></span></b><b><span lang="EN-US"></span></b></span>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- </div>
           </div>
           </section> -->
       </div>
-      </div>
-      </section>
+    </div>
+  </section>
 
   <footer class="ism-footer py-5">
     <div class="container">
@@ -422,7 +810,7 @@
             </div>
             <div class="ism-footer-useful-links mb-4">
               <h5 class="">Social Media</h5>
-         <ul>
+              <ul>
                 <li>
                   <a href="https://x.com/Semicon_India" target="_blank">
                     <img src="images/footer/twitter_icon.png" alt="">Twitter</a>
@@ -430,19 +818,19 @@
                 <li>
                   <a href="https://www.youtube.com/@IndiaSemiconductorMission" target="_blank">
                     <img src="images/footer/youtube_icon.png" alt="">Youtube</a>
-                  </li>
+                </li>
                 <li>
                   <a href="https://www.linkedin.com/company/indiasemiconductormission/" target="_blank">
                     <img src="images/footer/linkedin_icon.png" alt="">LinkedIn</a>
-                  </li>
+                </li>
                 <li>
                   <a href="https://www.instagram.com/ism_indiasemiconductor/" target="_blank">
                     <img src="images/footer/instagram_icon.png" alt="">Instagram</a>
-                  </li>
+                </li>
                 <li>
                   <a href="https://webcast.gov.in/meity/semiconindia" target="_blank">
                     <img src="images/footer/webcast_icon.png" alt="">Webcast</a>
-                  </li>
+                </li>
               </ul>
             </div>
           </div>
@@ -483,7 +871,33 @@
   </section>
   <script src="./js/header.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script> -->
   <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="./js/flickety.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $('#box-2').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
 
 </body>
 
