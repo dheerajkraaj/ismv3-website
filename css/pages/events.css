@@ -40,7 +40,7 @@
 .highlights-cards{
   background-color: #fff;
   border-radius: 8px;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .highlights-cards h3{
   font-family: Poppins;
@@ -50,24 +50,76 @@ font-weight: 600;
 letter-spacing: 0.46px;
 }
 .details-cards {
-  background: #F3F6FD;
+  background: #FFF;
   padding: 2rem;
   border-radius: 8px;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .details-cards_title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0.4px;
   margin-bottom: 15px;
+  color: #192F60;
 }
 .details-cards_content {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0.32px;
+  
+}
+.ism-btn.small {
+  font-size: .875rem;
+  padding: 5px 12px;
+}
+.ism-btn--theme {
+  color: #fff;
+  border-radius: 8px;
+}
+.card-details-body {
+  padding: 20px 0 10px 0;
+  background-color: #192F60;
+  text-align: center;
+  color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-details img{
+  width: 100%;
+  padding: 1rem;
+}
+.contact_details_content .card{
+  padding: 1rem;
+}
+.webinar{
+  border: 1px solid #192f60;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    width: 40%;
+    align-items: center;
+    display: flex;
+}
+.webinar-icon{
+  padding-right: 1rem;
+}
+.webinar-text__heading{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #192F60;
+}
+.webinartext__desc{
+  font-size: 14px;
+}
+.ism-btn--white {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color: #192F60 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 .ism-generic_tabbing.v3 .nav-tabs {
   display: -webkit-box;
