@@ -1,4 +1,20 @@
 
+
+.card-container .card-js {
+  display: none;
+}
+.card-container .card-js.visible {
+  display: block;
+}
+.card-container .card-js.visible1 {
+  display: block;
+}
+.card-container .card-js.visible2 {
+  display: block;
+}
+.card-container .card-js.visible3 {
+  display: block;
+}
 .main-event-cards{
   background: var(--secondary-color);
   border-radius: 0.5rem;
@@ -216,10 +232,10 @@ letter-spacing: 0.46px;
 #myCarousel {
   margin-top: 50px;
 }
-.semi_Dignitaries{
+.semi_portfolios{
   background: #F3F6FD;
 }
-.semi_Dignitaries .img-card {
+.semi_portfolios .img-card {
   width: 100%;
   position: relative;
   margin: 10px auto;
@@ -228,13 +244,14 @@ letter-spacing: 0.46px;
   overflow: hidden;
   transition: 0.5s all ease-in-out;
 }
-.semi_Dignitaries .img-card img {
+.semi_portfolios .img-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.5s all ease-in-out;
+  border-radius: 8px;
 }
-.semi_Dignitaries .img-card .overlay {
+.semi_portfolios .img-card .overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -245,7 +262,7 @@ letter-spacing: 0.46px;
   border-radius: 8px;
   border: 1px solid #192f60;
 }
-.semi_Dignitaries .img-card .content {
+.semi_portfolios .img-card .content {
   color: white;
   font-weight: normal;
   line-height: normal;
@@ -272,11 +289,11 @@ letter-spacing: 0.46px;
   transition: 0.5s all ease-in-out;
   justify-content: end;
 }
-.semi_Dignitaries .content h3{
+.semi_portfolios .content h3{
   font-size: 1.5rem;
   font-family: poppins;
 }
-.semi_Dignitaries .content p{
+.semi_portfolios .content p{
   font-size: 0.75rem;
   font-family: poppins;
 }
