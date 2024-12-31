@@ -525,7 +525,7 @@ footer ul li a img {
 }
 
 .ism-footer-logo-link img {
-  width: 70%;
+  width: 90%;
   height: auto;
 } 
 
@@ -688,37 +688,37 @@ footer ul li a img {
 .cell1 {
   background: url(./images/testimonials/modi_ji.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cell2 {
   background: url(./images/testimonials/ashwini_ji.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cell3 {
   background: url(./images/testimonials/vellayan.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cell4 {
   background: url(./images/testimonials/pradeep.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cell5 {
   background: url(./images/testimonials/rusell.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cell6 {
   background: url(./images/testimonials/sanjay.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* .flickity-page-dots {
@@ -754,14 +754,14 @@ footer ul li a img {
   align-content: center;
   padding: 0.25rem;
   height: 100%;
-  width: 100%;
+  width: 70%;
 }
 
 .page-main-banner{
   background-image: url(../../images/page-title-banner.webp);
   background-position: center;
   background-size: cover;
-  height: 18vh;
+  height: 14vh;
   align-content: center;
 }
 .page-main-banner h3 {

@@ -4,9 +4,12 @@
   background-size: cover;
   height: 25vh;
 }
+.advisory-section {
+  background-color: #F3F6FD;
+}
 .ism-cards {
   background-color: #fff;
-  box-shadow: 0 4px 25px rgba(34, 86, 102, 0.07);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   text-align: center;
   position: relative;
   margin-bottom: 2rem;
