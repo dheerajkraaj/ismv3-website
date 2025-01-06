@@ -299,8 +299,6 @@ letter-spacing: 0.46px;
 }
 
 
-
-
 @media (max-width: 768px) {
   .carousel-inner .carousel-item>div {
       display: none;
@@ -342,4 +340,104 @@ letter-spacing: 0.46px;
   .carousel-item-prev:not(.carousel-item-end) {
       transform: translateX(-25%) !important;
   }
+}
+
+#to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  /* width: fit-content; */
+  cursor: pointer;
+  display: block;
+  /* padding: 1px 15px 3px 2px;
+  border-radius: 50px; */
+  z-index: 999;
+}
+.icon-btn {
+  /* padding: 2px 15px 2px 2px; */
+  border-radius: 50px;
+  background: #fff;
+  color: #192f60;
+  font-weight: 500;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  border: 1px solid #192f60;
+  outline: none;
+  letter-spacing: 0.4px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.icon-btn:hover {
+  background-color:#192f60;
+  border-color:#fff;
+  color: #fff;
+}
+#to-top img {
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
+}
+
+
+
+.socials-container{
+  display: flex;
+  gap: 10px;
+}
+.socials-container a{
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.socials-container a svg{
+  height: 30px;
+  fill: #192F60;
+}
+.socials-container a::before{
+  content: attr(data-social);
+  position: absolute;
+  background-color: #192F60;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-40px) rotate(25deg);
+  opacity: 0;
+  fill: white;;
+  transition: 200ms cubic-bezier(.42,0,.44,1.68);
+  /* width: max-content; */
+}
+.socials-container a:hover{
+  background-color: #192F60;
+  fill: white;
+}
+.socials-container a:hover svg{
+  background-color: #192F60;
+  fill: white;
+}
+.socials-container a::after{
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #192F60;
+  transform: translateY(0) rotate(25deg);
+  opacity: 0;
+  transition: 200ms cubic-bezier(.42,0,.44,1.68);
+}
+.socials-container a:hover::before{
+  transform: translateY(-65px) rotate(0);
+  opacity: 1;
+}
+.socials-container a:hover::after{
+  transform: translateY(-42px) rotate(0);
+  opacity: 1;
 }
