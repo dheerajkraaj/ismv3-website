@@ -409,6 +409,22 @@ border: 1px solid #192f60;
 .show-menu {
   top: 5rem;
 }
+.dropdown__menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown__menu.show {
+  display: block;
+}
+/*.dropdown__arrow {
+  transition: transform 0.3s ease;
+}
+
+.dropdown__arrow.rotate {
+  transform: rotate(180deg);
+}*/
 }
 
 /* For large devices */
