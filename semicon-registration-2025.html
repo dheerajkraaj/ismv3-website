@@ -176,6 +176,48 @@
     .page-main-banner {
       height: 10vh;
     }
+    .form-section {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins';
+}
+
+.form-section-header {
+  background-color: #192f60;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px 8px 0 0;
+  font-family: 'Poppins';
+}
+
+.form-section-body {
+  padding: 3rem 1rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  letter-spacing: 0.32px;
+  font-weight: 500;
+  color: #192F61;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(25, 47, 96, 0.70);
+  background-color: #f3f6fd;
+  background-clip: padding-box;
+  border: 2px solid rgba(25, 47, 96, 0.10);
+  border-radius: 4px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  height: 2.75rem;
+}
   </style>
 </head>
 
@@ -366,7 +408,55 @@
               <p>1. Basic Details</p>
             </div>
             <div class="tab-card-body p-3">
-              <p>This is the content for step 1.</p>
+               <form id="" action="" method="post">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="username" name="" placeholder="First Name" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="middleName" class="form-label">Middle Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="" placeholder="Middle Name" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="" placeholder="Last Name" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="name" name="" placeholder="Email" required>
+                          </div>
+                           <div class="col-md-4">
+                            <label for="mobile" class="form-label">Mobile</label>
+                            <input type="text" class="form-control" id="mobile" name="" placeholder="Mobile" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="country" class="form-label">Country</label>
+                            <select name="Country" id="" class="form-select">
+                              <option value="">India</option>
+                            </select>
+                          </div>
+                
+                          <div class="col-md-4">
+                            <label for="state" class="form-label">State <span class="text-danger">*</span></label>
+                            <select name="State" id="" class="form-select">
+                              <option value="">Uttar Pradesh</option>
+                            </select>                          </div>
+                          <div class="col-md-4">
+                            <label for="city" class="form-label">City</label>
+                            <select name="City" id="" class="form-select">
+                              <option value="">Agra</option>
+                            </select>                          </div>                
+                         <div class="col-md-4">
+                            <label for="status" class="form-label">PinCode</label>
+                            <input type="text" class="form-control" id="email" name="" placeholder="PinCode" >
+                          </div>
+                           <div class="col-md-12">
+                            <label for="status" class="form-label">Address</label>
+                            <textarea type="" class="form-control" id="email" name="" placeholder="Address" rows="3" style="height: auto;"></textarea>
+                          </div>
+                        </div>
+                      </form>
             </div>
             <div class="tab-card-footer p-3 d-flex justify-content-end"><button class="themeCrm-btn-darkBlue"
                 onclick="goToStep(1)">Next<i class="fa-solid fa-arrow-right ms-1"></i></button></div>
@@ -375,10 +465,68 @@
         <div class="tab-pane fade" id="step2">
           <div class="tab-card">
             <div class="tab-card-header p-3 d-none">
-              <p>2. Participation Type</p>
+              
             </div>
             <div class="tab-card-body p-3">
-              <p>This is the content for step 2.</p>
+              <form id="" action="" method="post">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <label for="idCard" class="form-label">ID Card <span class="text-danger">*</span></label>
+                           <select name="ID Card" id="" class="form-select">
+                              <option value="">Aadhar Cards</option>
+                              <option value="">Driving License</option>
+                              <option value="">OCI Card</option>
+                              <option value="">Pan Card</option>
+                              <option value="">Passpost</option>
+                              <option value="">PIO Card</option>
+                              <option value="">Voter ID Card</option>
+                              <option value="">Others</option>
+                            </select> 
+                          </div>
+                          <div class="col-md-4">
+                            <label for="idCardName" class="form-label">ID Card Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="" placeholder="ID Card Name" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="idCardNumber" class="form-label">ID Card Number <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="" placeholder="ID Card Number" required>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="category" class="form-label">Category <span class="text-danger">*</span></label>
+                            <select name="category" id="" class="form-select">
+                              <option value="">Industry</option>
+                              <option value="">Governmment Organization</option>
+                              <option value="">Exhibitor</option>
+                              <option value="">Academic</option>
+                              <option value="">Media</option>
+                              <option value="">Others</option>
+                            </select> 
+                          </div>
+                          <div class="col-md-4">
+                            <label for="subCategory" class="form-label">Sub-Category</label>
+                            <select name="subCategory" id="" class="form-select">
+                              <option value="">Semiconductor</option>
+                              <option value="State Governmment"></option>
+                              <option value="">Exhibitor</option>
+                              <option value="">Startups</option>
+                              <option value="">Others</option>
+                              <option value="">Diplomates</option>
+                              <option value="">Exhibitors</option>
+                              <option value="">Central Governmment</option>
+                              <option value="">Student</option>
+                              <option value="">Professors</option>
+                              <option value="">Media</option>
+                            </select> 
+                          </div>
+                
+                          <div class="col-md-4">
+                            <label for="othersCategory" class="form-label">Other Category <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="email" name="" placeholder="Other Category" required>
+                          </div>          
+                          
+                        </div>
+                      </form>
+            
             </div>
             <div class="tab-card-footer p-3 d-flex justify-content-between">
               <button class="themeCrm-btn-light" onclick="goToStep(0)"><i
@@ -394,7 +542,30 @@
               <p>3. Affiliation/Organization Details</p>
             </div>
             <div class="tab-card-body p-3">
-              <p>This is the content for step 3.</p>
+               <form id="" action="" method="post">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <label for="type" class="form-label">Type <span class="text-danger">*</span></label>
+                            <select name="type" id="" class="form-select">
+                              <option value="">IN Person</option>
+                              <option value="">Online</option>
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="eventDays" class="form-label">Event Days <span class="text-danger">*</span></label>
+                           <select name="eventDays" id="" class="form-select">
+                              <option value="">2nd|3rd|4th</option>
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="exhibitonDays" class="form-label">Exhibition Days<span class="text-danger">*</span></label>
+                           <select name="exhibitonDays" id="" class="form-select">
+                              <option value="">2nd|3rd|4th</option>
+                            </select>
+                          </div>              
+                          
+                        </div>
+                      </form>
             </div>
             <div class="tab-card-footer p-3 d-flex justify-content-between">
               <button class="themeCrm-btn-light" onclick="goToStep(1)"><i
